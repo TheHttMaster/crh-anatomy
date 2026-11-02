@@ -1,0 +1,33 @@
+<section class="page-hero"><div class="wrap">
+  <div class="crumbs"><a href="/">Inicio</a> / Lámina</div>
+  <h1>Lámina anatómica · maqueta desmontable</h1>
+  <p>Referencia visual provisional mientras se resuelve el modelado 3D interactivo.</p>
+</div></section>
+<section class="page-body"><div class="wrap">
+  <div class="lamina-layout">
+    <div class="card">
+      <img class="lamina-img" id="laminaImg" src="/img/lamina.jpg" width="1536" height="1024" alt="Lámina conceptual del suelo pélvico y esfera urogenital por capas anatómicas">
+      <p class="muted mini" style="margin-top:12px">Imagen conceptual generada para orientar el diseño. Las etiquetas y relaciones anatómicas deben verificarse antes de utilizarla como material docente definitivo.</p>
+      <button class="btn primary" type="button" id="laminaOpen">Abrir imagen en tamaño completo</button>
+    </div>
+    <aside class="card">
+      <h3>Lectura por capas</h3>
+      <ol class="lamina-list">
+        <li><b>Base ósea:</b> pelvis, sacro, cóccix y sínfisis púbica.</li>
+        <li><b>Profunda:</b> elevador del ano y coccígeo.</li>
+        <li><b>Intermedia:</b> membrana perineal y complejo esfinteriano uretral.</li>
+        <li><b>Superficial:</b> músculos perineales y esfínter anal externo.</li>
+      </ol>
+      <div class="fact"><b>Nota anatómica</b><span>La imagen puede contener etiquetas o ubicaciones imprecisas; úsala como esquema de diseño, no como fuente anatómica validada.</span></div>
+      <div class="btn-row" style="margin-top:16px"><a class="btn" href="/capas">Explorar capas interactivas</a></div>
+    </aside>
+  </div>
+</div></section>
+<div class="modal" id="laminaModal" aria-hidden="true">
+  <div class="modal-bg" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-label="Lámina anatómica ampliada">
+    <button class="modal-close" type="button" data-close aria-label="Cerrar imagen">×</button>
+    <img id="laminaModalImg" alt="Lámina anatómica ampliada">
+    <p>Imagen conceptual de referencia; verifica las etiquetas con fuentes anatómicas.</p>
+  </div>
+</div>

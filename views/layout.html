@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="theme-color" content="#0b6b4d">
+{{canonical}}
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:type" content="website">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body data-page="{{page}}">
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="CrH-Anatomy · inicio">
+      <img src="/img/logo-mark.svg" alt="" width="42" height="42">
+      <span class="brand-text"><strong>CrH<span>-Anatomy</span></strong><small>ANATOMÍA · FISIOTERAPIA</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menú"><span></span></button>
+    <nav class="main-nav" id="mainNav" aria-label="Principal">
+      {{nav}}
+    </nav>
+  </div>
+</header>
+<main id="contenido">
+{{content}}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="/" style="padding:0"><img src="/img/logo-mark.svg" alt="" width="42" height="42"><span class="brand-text"><strong>CrH<span>-Anatomy</span></strong><small>ANATOMÍA · FISIOTERAPIA</small></span></a>
+        <p style="margin-top:16px;max-width:32em;font-size:.93rem">Proyecto educativo para comprender la anatomía del suelo pélvico y la región urogenital, con enfoque en el razonamiento clínico de fisioterapia.</p>
+      </div>
+      <div>
+        <h4>Aprende</h4>
+        <a href="/atlas">Atlas y fichas</a><a href="/modelos">Modelos 3D</a><a href="/capas">Capas anatómicas</a><a href="/lamina">Lámina anatómica</a><a href="/biblioteca">Biblioteca clínica</a>
+      </div>
+      <div>
+        <h4>Practica</h4>
+        <a href="/patologias">Patologías</a><a href="/quiz">Quiz esencial</a><a href="/asistente">Pregunta a CrH-IA</a>
+        <a href="https://www.z-anatomy.com/" target="_blank" rel="noopener noreferrer">Z-Anatomy ↗</a>
+        <a href="https://www.pelvicatlas.com/" target="_blank" rel="noopener noreferrer">Pelviatlas ↗</a>
+      </div>
+    </div>
+    <p class="foot-note">© <span id="year"></span> CrH-Anatomy · Contenido educativo. No sustituye la valoración, el diagnóstico ni el tratamiento de un profesional de la salud. Verifica siempre con fuentes primarias y guías vigentes.</p>
+  </div>
+</footer>
+{{widget}}
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="/js/common.js"></script>
+{{scripts}}
+</body>
+</html>

@@ -1,0 +1,48 @@
+<section class="page-hero"><div class="wrap">
+  <div class="crumbs"><a href="/">Inicio</a> / Modelos 3D</div>
+  <h1>Modelos 3D del suelo pélvico</h1>
+  <p>Gira, acerca y aísla cada estructura. Toca un músculo, en la lista o en el modelo, para ver su nombre y su ficha. Modelo de Z-Anatomy (CC BY-SA 4.0).</p>
+</div></section>
+<section class="page-body" style="padding-top:24px"><div class="wrap">
+  <div class="viewer-layout">
+    <aside class="viewer-side" aria-label="Estructuras">
+      <div class="btn-row" style="margin-bottom:12px">
+        <button class="btn sm" type="button" id="onlyPelvic">Solo suelo pélvico</button>
+        <button class="btn sm" type="button" id="showAll">Mostrar todo</button>
+      </div>
+      <div id="structList" class="struct-list"></div>
+    </aside>
+    <div class="viewer-main">
+      <div class="stage3d" id="stage" data-model="/img/pelvis.glb">
+        <div class="loading" id="loading">Cargando modelo 3D…</div>
+        <div class="tip" id="tip" hidden></div>
+      </div>
+      <div class="viewer-bar">
+        <div class="chip-row" role="group" aria-label="Vistas">
+          <button class="chip-btn" type="button" data-view="frontal">Frontal</button>
+          <button class="chip-btn" type="button" data-view="posterior">Posterior</button>
+          <button class="chip-btn" type="button" data-view="lateral">Lateral</button>
+          <button class="chip-btn" type="button" data-view="superior">Superior</button>
+          <button class="chip-btn" type="button" data-view="inferior">Inferior</button>
+          <button class="chip-btn" type="button" data-view="oblicua">Oblicua</button>
+        </div>
+        <div class="opts">
+          <label><input type="checkbox" id="optLabels"> Todas las etiquetas</label>
+          <label><input type="checkbox" id="optGhost"> Huesos translúcidos</label>
+          <label><input type="checkbox" id="optRotate"> Girar solo</label>
+          <button class="btn sm" type="button" id="shot">Descargar imagen</button>
+        </div>
+      </div>
+      <div class="card" id="infoCard" aria-live="polite" style="margin-top:14px"><p class="muted">Toca una estructura en la lista o en el modelo para ver su nombre y su ficha.</p></div>
+    </div>
+  </div>
+
+  <div class="grid cols-2" style="margin-top:28px">
+    <div class="card"><h3>Estructuras sin malla propia en este modelo</h3>
+      <ul class="miss" id="missingList"></ul>
+      <p class="muted mini">Para verlas en 3D usa <a href="/atlas">Z-Anatomy o Pelviatlas</a>.</p></div>
+    <div class="card"><h3>Sobre este modelo</h3>
+      <p class="mini">Representa anatomía masculina (incluye vejiga y próstata como referencia). La anatomía varía entre personas y el modelo es un recurso de estudio, no una referencia clínica validada.</p>
+      <p class="mini" style="margin:0"><b>Atribución:</b> modelos de <a href="https://github.com/Z-Anatomy/Models-of-human-anatomy" target="_blank" rel="noopener noreferrer">Z-Anatomy</a> (Gauthier Kervyn y Marcin Zielinski), derivados de BodyParts3D, bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Se seleccionaron 25 mallas y se convirtieron a glTF (GLB) con colores propios. Este modelo adaptado se comparte con la misma licencia.</p></div>
+  </div>
+</div></section>

@@ -1,0 +1,26 @@
+<section class="page-hero"><div class="wrap">
+  <div class="crumbs"><a href="/">Inicio</a> / Quiz</div>
+  <h1>Quiz esencial</h1>
+  <p>Practica con preguntas clave de anatomía pélvica y urogenital, o genera un repaso a partir de tus propios apuntes.</p>
+</div></section>
+<section class="page-body"><div class="wrap">
+  <div class="quiz-layout">
+    <div class="card">
+      <h3>Configura tu práctica</h3>
+      <label class="lbl" for="questionCount">Cantidad de preguntas</label>
+      <select class="field" id="questionCount"></select>
+      <div class="btn-row" style="margin-top:14px"><button class="btn primary" type="button" id="restart">Reiniciar cuestionario</button></div>
+      <hr style="border:0;border-top:1px solid var(--line);margin:24px 0">
+      <h3>Repasar vocabulario desde un texto</h3>
+      <textarea class="field" id="sourceText" placeholder="Pega aquí un fragmento de tus apuntes. CrH-Anatomy extraerá términos para repasar; contrasta su significado con tu fuente."></textarea>
+      <label class="lbl" for="qmode">Tipo de pregunta</label>
+      <select class="field" id="qmode"><option>Mixto</option><option>Comprensión básica</option><option>Identificación anatómica</option><option>Verdadero/Falso</option><option>Selección múltiple</option><option>Aplicación</option></select>
+      <div class="btn-row" style="margin-top:14px"><button class="btn" type="button" id="generate">Generar preguntas</button></div>
+    </div>
+    <div class="card pad-lg">
+      <div class="q-top"><div><h3 id="quizTitle">Quiz esencial · Suelo pélvico</h3><div class="muted mini" id="quizMeta"></div></div><div class="score" id="score" aria-label="Puntos">0</div></div>
+      <div id="questionArea" aria-live="polite"></div>
+    </div>
+  </div>
+  <div class="notice" style="margin-top:22px">¿Dudas en una respuesta? <a href="/asistente">CrH-IA</a> puede darte pistas sin revelarte la solución de inmediato.</div>
+</div></section>
