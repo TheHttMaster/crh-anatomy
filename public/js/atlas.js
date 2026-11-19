@@ -8,8 +8,7 @@
       ['Irrigación', m.v || 'Dato pendiente de verificación específica para este músculo; consulta un atlas anatómico y las variaciones individuales.']];
     body.innerHTML = '<h3 style="font-size:1.6rem">' + esc(m.n) + '</h3><div class="facts">' +
       rows.map(function (r) { return '<div class="fact"><b>' + r[0] + '</b><span>' + esc(r[1]) + '</span></div>'; }).join('') +
-      '</div><div class="draw-chain"><b>Cadena de dibujo</b>' + esc(m.c) + '</div>' +
-      '<div class="btn-row" style="margin-top:16px"><button class="btn sm" type="button" id="askMuscle">Preguntar a CrH-IA sobre este músculo</button></div>';
+      '</div><div class="btn-row" style="margin-top:16px"><button class="btn sm" type="button" id="askMuscle">Preguntar a CrH-IA sobre este músculo</button></div>';
     $('askMuscle').addEventListener('click', function () {
       location.href = '/asistente?q=' + encodeURIComponent('Explícame ' + m.n + ': origen, inserción, inervación y función, con pistas para recordarlo.');
     });

@@ -221,9 +221,10 @@ p {
 }
 
 .main-nav a[aria-current="page"] {
-  background: var(--mint);
-  color: var(--bg);
-  font-weight: 650
+  background: var(--bg);
+  color: var(--g-dark);
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(18, 59, 93, .18)
 }
 
 .main-nav .nav-cta {
@@ -319,7 +320,14 @@ p {
 
   .main-nav a {
     padding: 13px 14px;
-    font-size: 1rem
+    font-size: 1rem;
+    color: var(--ink)
+  }
+
+  .main-nav a[aria-current="page"] {
+    background: var(--g);
+    color: #fff;
+    box-shadow: none
   }
 
   .main-nav .nav-cta {
@@ -1028,21 +1036,6 @@ details.acc .acc-body h4 {
   color: var(--ink)
 }
 
-.draw-chain {
-  margin-top: 14px;
-  background: var(--rose-soft);
-  border: 1px solid rgba(18, 59, 93, .20);
-  border-radius: 12px;
-  padding: 12px 14px
-}
-
-.draw-chain b {
-  color: var(--g-dark);
-  font-size: .72rem;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  display: block
-}
 
 @media(max-width:800px) {
   .ficha {
