@@ -24,7 +24,7 @@
   --serif: "Fraunces", Georgia, "Times New Roman", serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --maxw: 1180px;
-  --header-h: 76px;
+  --header-h: 70px;
 }
 
 * {
@@ -1049,96 +1049,6 @@ details.acc .acc-body h4 {
   }
 }
 
-/* ===== Capas ===== */
-.layers-wrap {
-  display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
-  gap: 22px;
-  align-items: start
-}
-
-.stage {
-  position: relative;
-  background: linear-gradient(180deg, #fff, rgba(22, 122, 103, .06));
-  border: 1px solid var(--line);
-  border-radius: var(--r-lg);
-  padding: 14px
-}
-
-.stage svg {
-  width: 100%;
-  height: auto
-}
-
-.stage [id^="layer"]:not(#layerSvg),
-.stage .bones {
-  transition: opacity .3s
-}
-
-.stage-caption {
-  position: absolute;
-  left: 16px;
-  top: 14px;
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 99px;
-  padding: 5px 12px;
-  font-size: .78rem;
-  font-weight: 600;
-  color: var(--g-dark);
-  max-width: calc(100% - 32px)
-}
-
-.layer-toggles {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 8px;
-  margin-bottom: 14px
-}
-
-.layer-btn {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-align: left;
-  border: 1px solid var(--line);
-  background: #fff;
-  border-radius: 12px;
-  padding: 10px 12px;
-  font-weight: 600;
-  font-size: .9rem
-}
-
-.layer-btn .dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  border: 2px solid var(--line);
-  flex-shrink: 0
-}
-
-.layer-btn.on {
-  border-color: var(--g2);
-  background: var(--mint)
-}
-
-.layer-btn.on .dot {
-  background: var(--g2);
-  border-color: var(--g2)
-}
-
-.layer-btn small {
-  display: block;
-  font-weight: 400;
-  color: var(--mut);
-  font-size: .76rem
-}
-
-@media(max-width:900px) {
-  .layers-wrap {
-    grid-template-columns: 1fr
-  }
-}
 
 /* ===== Lámina ===== */
 .lamina-layout {
@@ -1346,7 +1256,7 @@ select.field {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: 12px;
-  padding: 12px;
+  padding: 8px;
   background: #fff
 }
 
