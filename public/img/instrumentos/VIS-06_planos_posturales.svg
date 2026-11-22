@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<title>Observación postural por planos</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="48" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#18352d">Observación postural por planos</text>
+
+<g font-family="Arial" text-anchor="middle" fill="#24483a">
+<rect x="55" y="100" width="245" height="320" rx="14" fill="#f2f6f3" stroke="#9bb7a8" stroke-width="2"/>
+<rect x="328" y="100" width="245" height="320" rx="14" fill="#f2f6f3" stroke="#9bb7a8" stroke-width="2"/>
+<rect x="601" y="100" width="245" height="320" rx="14" fill="#f2f6f3" stroke="#9bb7a8" stroke-width="2"/>
+<text x="177" y="135" font-size="22" font-weight="bold">Anterior</text><text x="450" y="135" font-size="22" font-weight="bold">Posterior</text><text x="723" y="135" font-size="22" font-weight="bold">Lateral</text>
+<g stroke="#527668" stroke-width="8" fill="none" stroke-linecap="round">
+<circle cx="177" cy="190" r="25"/><path d="M177 220 V325 M130 245 L224 245 M177 325 L145 390 M177 325 L209 390"/>
+<circle cx="450" cy="190" r="25"/><path d="M450 220 V325 M403 245 L497 245 M450 325 L418 390 M450 325 L482 390"/>
+<circle cx="723" cy="190" r="25"/><path d="M723 220 Q700 270 720 325 M723 245 L680 270 M720 325 L700 390 M720 325 L750 390"/>
+</g>
+</g>
+
+<text x="40" y="498" font-family="Arial,sans-serif" font-size="13" fill="#666">CrH-Anatomy · Diagrama educativo original · No sustituye protocolos oficiales</text>
+</svg>

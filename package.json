@@ -8,7 +8,8 @@
     "dev": "node --watch server/index.js",
     "test": "node --test tests/*.test.js",
     "build:viewer": "node scripts/build-viewer.js",
-    "build:standalone": "node scripts/build-standalone.js"
+    "build:standalone": "node scripts/build-standalone.js",
+    "build:catalog": "node scripts/build-catalog.js"
   },
   "engines": {
     "node": ">=22"

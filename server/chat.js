@@ -15,7 +15,35 @@ function sanitizeHistory(history) {
     .map((i) => ({ role: i.role === "assistant" ? "model" : "user", parts: [{ text: i.text.slice(0, 12000) }] }));
 }
 
-function chatRouter(ai = cfg.GEMINI_API_KEY ? new GoogleGenAI({ apiKey: cfg.GEMINI_API_KEY }) : null) {
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// ¿Vale la pena reintentar? Sobrecarga (503), límites (429) y fallos transitorios del servicio.
+function isTransient(err) {
+  const status = Number(err && (err.status || err.code));
+  if ([429, 500, 502, 503, 504].includes(status)) return true;
+  return /UNAVAILABLE|overloaded|high demand|RESOURCE_EXHAUSTED|timeout|timed out|ECONNRESET|ETIMEDOUT|fetch failed/i.test(String(err && err.message));
+}
+
+async function generateWithRetry(ai, params, { retries = cfg.GEMINI_RETRIES, baseMs = cfg.GEMINI_RETRY_BASE_MS } = {}) {
+  let lastErr;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      return await ai.models.generateContent({
+        ...params,
+        config: { ...params.config, abortSignal: AbortSignal.timeout(cfg.GEMINI_TIMEOUT_MS) },
+      });
+    } catch (err) {
+      lastErr = err;
+      if (!isTransient(err) || attempt === retries) break;
+      // Espera exponencial con algo de azar para no sincronizar reintentos
+      await sleep(baseMs * 2 ** attempt + Math.random() * baseMs * 0.25);
+    }
+  }
+  lastErr.transient = isTransient(lastErr);
+  throw lastErr;
+}
+
+function chatRouter(ai = cfg.GEMINI_API_KEY ? new GoogleGenAI({ apiKey: cfg.GEMINI_API_KEY }) : null, opts = {}) {
   const router = express.Router();
   const rateLimit = createRateLimiter(cfg.RATE_LIMIT_PER_MIN);
 
@@ -28,21 +56,20 @@ function chatRouter(ai = cfg.GEMINI_API_KEY ? new GoogleGenAI({ apiKey: cfg.GEMI
     if (typeof message !== "string" || !message.trim()) {
       return res.status(400).json({ error: "Escribe una pregunta para continuar." });
     }
-    if (!ai) return res.status(503).json({ error: "La IA no está configurada. Revisa la llave de Gemini." });
+    if (!ai) return res.status(503).json({ code: "not_configured", retryable: false, error: "CrH-IA no está disponible en este momento." });
 
     const contents = sanitizeHistory(history);
     contents.push({ role: "user", parts: [{ text: message.trim().slice(0, 12000) }] });
 
     try {
-      const result = await ai.models.generateContent({
-        model: cfg.GEMINI_MODEL,
-        contents,
-        config: { systemInstruction: SYSTEM_INSTRUCTION, abortSignal: AbortSignal.timeout(cfg.GEMINI_TIMEOUT_MS) },
-      });
+      const result = await generateWithRetry(ai, { model: cfg.GEMINI_MODEL, contents, config: { systemInstruction: SYSTEM_INSTRUCTION } }, opts);
       res.json({ ok: true, reply: result.text || "No se recibió una respuesta de texto." });
     } catch (error) {
-      console.error("Error de CrH-IA:", error.message);
-      res.status(502).json({ error: "No se pudo obtener una respuesta. Revisa la conexión, la llave y los límites de uso." });
+      console.error("Error de CrH-IA:", error.status || "", error.message);
+      if (error.transient) {
+        return res.status(503).set("Retry-After", "10").json({ code: "busy", retryable: true, error: "El servicio de IA está muy solicitado. Espera unos segundos y pulsa «Reintentar»; tu pregunta no se ha perdido." });
+      }
+      res.status(502).json({ code: "error", retryable: true, error: "No se pudo obtener una respuesta de CrH-IA. Inténtalo de nuevo en un momento." });
     }
   });
 
@@ -50,4 +77,4 @@ function chatRouter(ai = cfg.GEMINI_API_KEY ? new GoogleGenAI({ apiKey: cfg.GEMI
   return router;
 }
 
-module.exports = { chatRouter, sanitizeHistory };
+module.exports = { chatRouter, sanitizeHistory, generateWithRetry, isTransient };

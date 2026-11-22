@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<title>Mapa corporal esquemático para localizar dolor</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="48" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#18352d">Mapa corporal esquemático para localizar dolor</text>
+
+<g fill="#eef3f0" stroke="#537568" stroke-width="4">
+<circle cx="450" cy="135" r="48"/><path d="M405 190 Q450 170 495 190 L520 320 L490 340 L480 260 L480 440 L420 440 L420 260 L410 340 L380 320 Z"/>
+<path d="M405 205 L330 350 L350 365 L425 250 M495 205 L570 350 L550 365 L475 250" fill="none" stroke="#537568" stroke-width="22" stroke-linecap="round"/>
+<path d="M430 440 L410 490 M470 440 L490 490" stroke="#537568" stroke-width="24" stroke-linecap="round"/>
+</g>
+<text x="450" y="515" font-family="Arial" font-size="15" text-anchor="middle" fill="#666">Vista anterior simplificada · usar mapa posterior complementario en la ficha</text>
+
+<text x="40" y="538" font-family="Arial,sans-serif" font-size="13" fill="#666">CrH-Anatomy · Diagrama educativo original · No sustituye protocolos oficiales</text>
+</svg>

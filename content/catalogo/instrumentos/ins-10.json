@@ -1,0 +1,143 @@
+{
+  "instrument_id": "INS-10",
+  "title": "Evaluación antropométrica",
+  "category": "Evaluación antropométrica y composición corporal",
+  "related_specialties": [
+    "Deportiva",
+    "Musculoesquelética",
+    "Pediátrica",
+    "Geriátrica",
+    "Oncológica",
+    "Cardiorrespiratoria"
+  ],
+  "target_population": [
+    "Adultos",
+    "Adultos mayores",
+    "Población pediátrica con referencias específicas"
+  ],
+  "purpose": "Obtener medidas corporales estandarizadas para describir dimensiones antropométricas y apoyar valoraciones nutricionales y funcionales.",
+  "variables": [
+    "Peso",
+    "Estatura",
+    "Índice de masa corporal",
+    "Perímetros",
+    "Longitudes segmentarias",
+    "Pliegues cutáneos",
+    "Diámetros",
+    "Circunferencia de cintura",
+    "Circunferencia de cadera",
+    "Relación cintura-cadera"
+  ],
+  "tools": [
+    "Báscula calibrada",
+    "Tallímetro",
+    "Cinta antropométrica",
+    "Plicómetro",
+    "Antropómetro",
+    "Calibrador de diámetros",
+    "Material de registro"
+  ],
+  "protocols": [
+    "Medición de peso",
+    "Medición de estatura",
+    "Cálculo de IMC",
+    "Medición de perímetros",
+    "Medición de longitudes segmentarias",
+    "Medición de pliegues cutáneos",
+    "Medición de diámetros",
+    "Registro de cintura y cadera",
+    "Evaluación pediátrica con referencias por edad y sexo"
+  ],
+  "scales": [
+    {
+      "name": "Índice de masa corporal",
+      "abbreviation": "IMC",
+      "formula": "peso (kg) / estatura (m)²",
+      "purpose": "Relacionar peso y estatura; no mide directamente composición corporal."
+    },
+    {
+      "name": "WHO Child Growth Standards",
+      "purpose": "Interpretar indicadores de crecimiento infantil mediante estándares específicos."
+    },
+    {
+      "name": "ISAK International Standards for Anthropometric Assessment",
+      "abbreviation": "ISAK",
+      "purpose": "Estandarizar procedimientos y puntos anatómicos de medición; consultar formación y estándares oficiales."
+    }
+  ],
+  "visual_assets": [
+    {
+      "asset_id": "VIS-10A",
+      "type": "diagrama_original",
+      "description": "Puntos anatómicos generales para medición de perímetros corporales.",
+      "file": "VIS-10_perimetros.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-10B",
+      "type": "diagrama_original",
+      "description": "Técnica esquemática de medición de pliegue cutáneo.",
+      "file": "VIS-10_pliegue_cutaneo.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-10C",
+      "type": "instrumentos",
+      "description": "Báscula, tallímetro, cinta y plicómetro.",
+      "file": null,
+      "asset_status": "pending_creation_and_verification"
+    },
+    {
+      "asset_id": "VIS-10D",
+      "type": "curvas_referencia",
+      "description": "Curvas de crecimiento infantil de fuente autorizada.",
+      "file": null,
+      "asset_status": "link_only_pending_source"
+    }
+  ],
+  "record_fields": [
+    "Fecha",
+    "Peso",
+    "Estatura",
+    "IMC",
+    "Perímetros",
+    "Longitudes segmentarias",
+    "Pliegues",
+    "Diámetros",
+    "Técnica",
+    "Instrumento/calibración",
+    "Condiciones de medición",
+    "Observaciones"
+  ],
+  "safety": [
+    "Garantizar privacidad y consentimiento",
+    "Utilizar instrumentos calibrados",
+    "Aplicar técnicas estandarizadas",
+    "Adaptar a movilidad y condición física",
+    "Considerar edema y amputaciones",
+    "No utilizar IMC como medición directa de composición corporal",
+    "Usar referencias pediátricas apropiadas"
+  ],
+  "activities": [
+    "Identificar puntos anatómicos",
+    "Practicar peso y estatura",
+    "Calcular IMC",
+    "Practicar perímetros",
+    "Reconocer técnica de pliegues",
+    "Comparar medidas seriadas"
+  ],
+  "references": [
+    "WHO. Child Growth Standards. 2006.",
+    "WHO. Obesity and overweight: fact sheets and technical resources. Consultar versión vigente.",
+    "ISAK. International Standards for Anthropometric Assessment. Consultar edición vigente."
+  ],
+  "licensing": {
+    "reproduction_allowed": null,
+    "conditions": "Verificar derechos, licencias y condiciones de uso de cada escala, formulario, imagen y protocolo oficial antes de publicarlos o reproducirlos.",
+    "source_verification": "pending"
+  },
+  "review_status": "content_draft",
+  "version": "1.0",
+  "language": "es",
+  "content_notice": "Borrador educativo para revisión académica. No sustituye formación, supervisión clínica, juicio profesional ni protocolos institucionales."
+}

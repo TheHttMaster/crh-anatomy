@@ -7,7 +7,7 @@ const { securityHeaders } = require("./security");
 const { chatRouter } = require("./chat");
 const { PAGES, render } = require("./pages");
 
-function createApp({ ai } = {}) {
+function createApp({ ai, chatOptions } = {}) {
   const app = express();
   app.disable("x-powered-by");
   app.set("trust proxy", cfg.TRUST_PROXY === "false" ? false : isNaN(cfg.TRUST_PROXY) ? cfg.TRUST_PROXY : Number(cfg.TRUST_PROXY));
@@ -33,7 +33,7 @@ function createApp({ ai } = {}) {
     app.get(route, (req, res) => res.type("html").send(render(page, route)));
   }
 
-  app.use("/api", chatRouter(ai));
+  app.use("/api", chatRouter(ai, chatOptions));
 
   app.use(
     express.static(path.join(cfg.ROOT, "public"), {

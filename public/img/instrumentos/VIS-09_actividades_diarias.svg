@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<title>Actividades de la vida diaria</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="48" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#18352d">Actividades de la vida diaria</text>
+
+<g font-family="Arial" text-anchor="middle">
+<rect x="65" y="115" width="350" height="270" rx="16" fill="#eef5f0" stroke="#5d8a72" stroke-width="3"/>
+<rect x="485" y="115" width="350" height="270" rx="16" fill="#f4f2e9" stroke="#a18b51" stroke-width="3"/>
+<text x="240" y="160" font-size="25" font-weight="bold" fill="#24543d">Básicas (ABVD)</text>
+<text x="660" y="160" font-size="25" font-weight="bold" fill="#735d2e">Instrumentales (AIVD)</text>
+<g font-size="20" fill="#294337">
+<text x="240" y="215">Alimentación</text><text x="240" y="255">Higiene y vestido</text><text x="240" y="295">Uso del sanitario</text><text x="240" y="335">Transferencias y movilidad</text>
+<text x="660" y="215">Compras</text><text x="660" y="255">Preparación de comidas</text><text x="660" y="295">Transporte y medicación</text><text x="660" y="335">Tareas domésticas</text>
+</g></g>
+
+<text x="40" y="498" font-family="Arial,sans-serif" font-size="13" fill="#666">CrH-Anatomy · Diagrama educativo original · No sustituye protocolos oficiales</text>
+</svg>

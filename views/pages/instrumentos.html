@@ -1,0 +1,37 @@
+<section class="page-hero"><div class="wrap">
+  <div class="crumbs"><a href="/">Inicio</a> / Instrumentos</div>
+  <h1>Instrumentos de evaluación fisioterapéutica</h1>
+  <p>Catálogo educativo de diez áreas de evaluación: qué miden, cómo se registran, qué precauciones exigen y cómo se relacionan con el estudio del suelo pélvico.</p>
+</div></section>
+<section class="page-body"><div class="wrap">
+  <div class="notice warn" id="insNotice"><b>Borrador educativo.</b> Este catálogo está pendiente de revisión académica, clínica y de permisos. Describe qué es cada instrumento y cómo se usa, pero <b>no reproduce formularios ni puntuaciones oficiales</b>. Consulta siempre los manuales y las versiones autorizadas antes de aplicar una escala.</div>
+
+  <div id="insList">
+    <div class="ins-tools">
+      <div><label class="sr-only" for="insSearch">Buscar instrumentos</label>
+        <input class="search" id="insSearch" type="search" placeholder="Buscar: goniómetro, MRC, Barthel, dolor neuropático…"></div>
+      <button class="btn" type="button" id="insReset">Limpiar filtros</button>
+    </div>
+    <div class="ins-filters">
+      <div><label class="lbl" for="insCat" style="margin-top:0">Categoría</label><select class="field" id="insCat"></select></div>
+      <div><label class="lbl" for="insSpec" style="margin-top:0">Especialidad</label><select class="field" id="insSpec"></select></div>
+    </div>
+    <p class="muted mini" id="insCount" aria-live="polite"></p>
+    <div class="grid cols-3" id="insGrid"></div>
+    <div class="no-results" id="insEmpty" hidden>No hay instrumentos con esos criterios. Prueba otro término o <a href="/asistente">pregúntale a CrH-IA</a>.</div>
+
+    <div class="section-head" style="margin-top:56px"><h2>Aún no cubiertos: instrumentos del suelo pélvico</h2>
+      <p>El catálogo actual es general. Estos instrumentos específicos están identificados como siguiente etapa; <b>no tienen contenido hasta contar con fuentes verificadas</b>.</p></div>
+    <div class="card"><ul class="pill-list" id="insPending"></ul></div>
+  </div>
+
+  <article id="insDetail" class="ins-detail" hidden aria-live="polite"></article>
+</div></section>
+<div class="modal" id="visModal" aria-hidden="true">
+  <div class="modal-bg" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-label="Diagrama ampliado">
+    <button class="modal-close" type="button" data-close aria-label="Cerrar imagen">×</button>
+    <img id="visModalImg" alt="">
+    <p id="visModalCap"></p>
+  </div>
+</div>

@@ -1,0 +1,141 @@
+{
+  "instrument_id": "INS-03",
+  "title": "Evaluación del equilibrio y la marcha",
+  "category": "Evaluación funcional y neurológica",
+  "related_specialties": [
+    "Neurológica",
+    "Geriátrica",
+    "Musculoesquelética",
+    "Deportiva",
+    "Pediátrica"
+  ],
+  "target_population": [
+    "Adultos",
+    "Adultos mayores",
+    "Población pediátrica según protocolo"
+  ],
+  "purpose": "Evaluar equilibrio estático y dinámico, movilidad funcional, marcha y capacidad de desplazamiento.",
+  "variables": [
+    "Equilibrio estático",
+    "Equilibrio dinámico",
+    "Control postural",
+    "Velocidad de marcha",
+    "Cadencia",
+    "Longitud del paso",
+    "Simetría",
+    "Transferencias",
+    "Resistencia al desplazamiento"
+  ],
+  "tools": [
+    "Cronómetro",
+    "Cinta métrica",
+    "Conos",
+    "Silla estable",
+    "Pasillo señalizado",
+    "Cinturón de marcha",
+    "Ayudas técnicas cuando correspondan"
+  ],
+  "protocols": [
+    "Berg Balance Scale",
+    "Timed Up and Go",
+    "10 Meter Walk Test",
+    "6 Minute Walk Test",
+    "Short Physical Performance Battery",
+    "Functional Reach Test",
+    "Romberg",
+    "Dynamic Gait Index"
+  ],
+  "scales": [
+    {
+      "name": "Berg Balance Scale",
+      "abbreviation": "BBS",
+      "purpose": "Evaluar equilibrio mediante tareas funcionales; utilizar instrucciones y puntuación oficiales autorizadas."
+    },
+    {
+      "name": "Timed Up and Go",
+      "abbreviation": "TUG",
+      "purpose": "Medir el tiempo para levantarse, caminar, girar y sentarse; documentar protocolo y ayudas."
+    },
+    {
+      "name": "10 Meter Walk Test",
+      "abbreviation": "10MWT",
+      "purpose": "Evaluar velocidad de marcha; especificar tramo cronometrado y protocolo."
+    },
+    {
+      "name": "6 Minute Walk Test",
+      "abbreviation": "6MWT",
+      "purpose": "Evaluar capacidad funcional de ejercicio mediante distancia recorrida en seis minutos."
+    },
+    {
+      "name": "Short Physical Performance Battery",
+      "abbreviation": "SPPB",
+      "purpose": "Evaluar desempeño físico de miembros inferiores mediante sus componentes estandarizados."
+    }
+  ],
+  "visual_assets": [
+    {
+      "asset_id": "VIS-03A",
+      "type": "diagrama_original",
+      "description": "Circuito esquemático para explicar el TUG; medidas y protocolo deben configurarse según la fuente adoptada.",
+      "file": "VIS-03_TUG_circuito.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-03B",
+      "type": "diagrama_original",
+      "description": "Fases generales del ciclo de marcha.",
+      "file": null,
+      "asset_status": "pending_creation"
+    },
+    {
+      "asset_id": "VIS-03C",
+      "type": "lamina",
+      "description": "Equilibrio estático y dinámico: ejemplos educativos.",
+      "file": null,
+      "asset_status": "pending_creation"
+    }
+  ],
+  "record_fields": [
+    "Fecha",
+    "Prueba",
+    "Tiempo",
+    "Distancia",
+    "Velocidad",
+    "Puntuación",
+    "Ayuda técnica",
+    "Nivel de asistencia",
+    "Pérdida de equilibrio",
+    "Síntomas",
+    "Observaciones"
+  ],
+  "safety": [
+    "Identificar riesgo de caída antes de comenzar",
+    "Supervisar al paciente",
+    "Utilizar ayudas técnicas indicadas",
+    "Suspender ante dolor torácico, mareo, disnea desproporcionada o deterioro",
+    "Adaptar pruebas a la capacidad funcional y protocolo"
+  ],
+  "activities": [
+    "Reconocer fases de marcha",
+    "Identificar alteraciones del equilibrio",
+    "Practicar circuitos",
+    "Calcular velocidad de marcha",
+    "Registrar resultados",
+    "Comparar evaluaciones"
+  ],
+  "references": [
+    "Berg K et al. Measuring balance in the elderly: preliminary development of an instrument. 1989. Verificar datos completos.",
+    "Podsiadlo D, Richardson S. The Timed Up and Go. 1991. Verificar datos completos.",
+    "ATS. Guidelines for the six-minute walk test. 2002. Verificar publicación exacta.",
+    "Guralnik JM et al. A short physical performance battery assessing lower extremity function. 1994. Verificar datos completos."
+  ],
+  "licensing": {
+    "reproduction_allowed": null,
+    "conditions": "Verificar derechos, licencias y condiciones de uso de cada escala, formulario, imagen y protocolo oficial antes de publicarlos o reproducirlos.",
+    "source_verification": "pending"
+  },
+  "review_status": "content_draft",
+  "version": "1.0",
+  "language": "es",
+  "content_notice": "Borrador educativo para revisión académica. No sustituye formación, supervisión clínica, juicio profesional ni protocolos institucionales."
+}

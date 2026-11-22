@@ -1,0 +1,114 @@
+{
+  "instrument_id": "INS-01",
+  "title": "Goniometría y evaluación del rango de movimiento articular",
+  "category": "Evaluación musculoesquelética",
+  "related_specialties": [
+    "Musculoesquelética",
+    "Neurológica",
+    "Deportiva",
+    "Traumatológica",
+    "Geriátrica",
+    "Pediátrica"
+  ],
+  "target_population": [
+    "Adultos",
+    "Adultos mayores",
+    "Población pediátrica con protocolo adaptado"
+  ],
+  "purpose": "Evaluar y registrar la amplitud de movimiento articular, identificar limitaciones y realizar seguimiento de cambios funcionales.",
+  "variables": [
+    "Rango de movimiento activo",
+    "Rango de movimiento pasivo",
+    "Rango activo-asistido",
+    "Dolor",
+    "Limitación articular",
+    "Simetría bilateral",
+    "Compensaciones"
+  ],
+  "tools": [
+    "Goniómetro universal",
+    "Goniómetro de dedos",
+    "Inclinómetro",
+    "Aplicaciones móviles",
+    "Cámara fotográfica o de video"
+  ],
+  "protocols": [
+    "Identificar el movimiento y las referencias anatómicas",
+    "Posicionar al paciente",
+    "Estabilizar el segmento proximal",
+    "Alinear fulcro y brazos del goniómetro",
+    "Ejecutar el movimiento sin forzar",
+    "Leer y registrar el ángulo",
+    "Comparar bilateralmente cuando proceda"
+  ],
+  "scales": [
+    {
+      "name": "Medición angular",
+      "range": "Grados (°)",
+      "purpose": "Registrar la amplitud de movimiento; interpretar con referencias apropiadas para articulación, edad y método."
+    }
+  ],
+  "visual_assets": [
+    {
+      "asset_id": "VIS-01A",
+      "type": "diagrama_original",
+      "description": "Partes del goniómetro: fulcro, brazo fijo, brazo móvil y escala.",
+      "file": "VIS-01_goniometro_componentes.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-01B",
+      "type": "lamina_anatomica",
+      "description": "Referencias anatómicas y alineación por articulación.",
+      "file": null,
+      "asset_status": "pending_creation_and_verification"
+    },
+    {
+      "asset_id": "VIS-01C",
+      "type": "comparacion",
+      "description": "Comparación conceptual entre medición manual e instrumental digital.",
+      "file": null,
+      "asset_status": "pending_creation"
+    }
+  ],
+  "record_fields": [
+    "Fecha",
+    "Articulación",
+    "Movimiento",
+    "Lateralidad",
+    "Modalidad (activo/pasivo/activo-asistido)",
+    "Posición del paciente",
+    "Instrumento",
+    "Resultado en grados",
+    "Dolor",
+    "Compensaciones",
+    "Observaciones"
+  ],
+  "safety": [
+    "Respetar restricciones médicas y posquirúrgicas",
+    "Evitar movimientos forzados",
+    "Detener ante dolor intenso o respuesta adversa",
+    "Registrar posición y método para facilitar comparaciones"
+  ],
+  "activities": [
+    "Identificar partes del goniómetro",
+    "Reconocer planos y ejes",
+    "Identificar referencias anatómicas",
+    "Practicar mediciones bilaterales",
+    "Comparar métodos manuales y digitales",
+    "Registrar e interpretar resultados"
+  ],
+  "references": [
+    "Norkin CC, White DJ. Measurement of Joint Motion: A Guide to Goniometry. Verificar edición y datos bibliográficos antes de publicación.",
+    "Literatura sobre fiabilidad y validez de mediciones digitales de ROM: referencias específicas pendientes de selección y verificación."
+  ],
+  "licensing": {
+    "reproduction_allowed": null,
+    "conditions": "Verificar derechos, licencias y condiciones de uso de cada escala, formulario, imagen y protocolo oficial antes de publicarlos o reproducirlos.",
+    "source_verification": "pending"
+  },
+  "review_status": "content_draft",
+  "version": "1.0",
+  "language": "es",
+  "content_notice": "Borrador educativo para revisión académica. No sustituye formación, supervisión clínica, juicio profesional ni protocolos institucionales."
+}

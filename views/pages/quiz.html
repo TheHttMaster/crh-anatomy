@@ -1,17 +1,23 @@
 <section class="page-hero"><div class="wrap">
   <div class="crumbs"><a href="/">Inicio</a> / Quiz</div>
-  <h1>Quiz esencial</h1>
+  <h1>Quiz</h1>
   <p>Practica con preguntas clave de anatomía pélvica y urogenital, o genera un repaso a partir de tus propios apuntes.</p>
 </div></section>
 <section class="page-body"><div class="wrap">
   <div class="quiz-layout">
     <div class="card">
       <h3>Configura tu práctica</h3>
+      <label class="lbl" for="quizTopic">Tema</label>
+      <select class="field" id="quizTopic"></select>
+      <label class="lbl" for="quizLevel">Dificultad</label>
+      <select class="field" id="quizLevel"><option value="">Todas</option><option value="basico">Básico</option><option value="intermedio">Intermedio</option></select>
       <label class="lbl" for="questionCount">Cantidad de preguntas</label>
       <select class="field" id="questionCount"></select>
+      <div class="muted mini" id="bankInfo" style="margin-top:6px"></div>
       <div class="btn-row" style="margin-top:14px"><button class="btn primary" type="button" id="restart">Reiniciar cuestionario</button></div>
       <hr style="border:0;border-top:1px solid var(--line);margin:24px 0">
       <h3>Repasar vocabulario desde un texto</h3>
+      <label class="lbl" for="sourceText">Tus apuntes</label>
       <textarea class="field" id="sourceText" placeholder="Pega aquí un fragmento de tus apuntes. CrH-Anatomy extraerá términos para repasar; contrasta su significado con tu fuente."></textarea>
       <label class="lbl" for="qmode">Tipo de pregunta</label>
       <select class="field" id="qmode"><option>Mixto</option><option>Comprensión básica</option><option>Identificación anatómica</option><option>Verdadero/Falso</option><option>Selección múltiple</option><option>Aplicación</option></select>

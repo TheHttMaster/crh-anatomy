@@ -1,0 +1,136 @@
+{
+  "instrument_id": "INS-09",
+  "title": "Evaluación funcional",
+  "category": "Evaluación funcional y de independencia",
+  "related_specialties": [
+    "Musculoesquelética",
+    "Neurológica",
+    "Geriátrica",
+    "Pediátrica",
+    "Oncológica",
+    "Cuidados intensivos",
+    "Traumatológica"
+  ],
+  "target_population": [
+    "Adultos",
+    "Adultos mayores",
+    "Población pediátrica con instrumentos adaptados"
+  ],
+  "purpose": "Identificar grado de independencia funcional, necesidades de asistencia y limitaciones en actividades cotidianas.",
+  "variables": [
+    "Autocuidado",
+    "Alimentación",
+    "Higiene",
+    "Vestido",
+    "Uso del sanitario",
+    "Transferencias",
+    "Movilidad",
+    "Escaleras",
+    "Control de esfínteres",
+    "Actividades instrumentales",
+    "Necesidad de asistencia"
+  ],
+  "tools": [
+    "Silla estable",
+    "Camilla",
+    "Cronómetro",
+    "Material cotidiano",
+    "Ayudas técnicas",
+    "Formularios autorizados"
+  ],
+  "protocols": [
+    "Entrevista funcional",
+    "Observación de actividades básicas",
+    "Observación de actividades instrumentales",
+    "Índice de Barthel",
+    "Índice de Katz",
+    "Lawton y Brody",
+    "Functional Independence Measure",
+    "Evaluación de transferencias",
+    "Evaluación de movilidad"
+  ],
+  "scales": [
+    {
+      "name": "Índice de Barthel",
+      "purpose": "Valorar independencia en actividades básicas de la vida diaria."
+    },
+    {
+      "name": "Índice de Katz",
+      "purpose": "Evaluar independencia en actividades básicas de autocuidado."
+    },
+    {
+      "name": "Lawton y Brody",
+      "purpose": "Valorar actividades instrumentales de la vida diaria."
+    },
+    {
+      "name": "Functional Independence Measure",
+      "abbreviation": "FIM",
+      "purpose": "Valorar nivel de asistencia requerido; comprobar licencia, formación y condiciones de uso."
+    }
+  ],
+  "visual_assets": [
+    {
+      "asset_id": "VIS-09A",
+      "type": "diagrama_original",
+      "description": "Clasificación visual de actividades básicas e instrumentales.",
+      "file": "VIS-09_actividades_diarias.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-09B",
+      "type": "diagrama_original",
+      "description": "Secuencia esquemática de transferencia cama-sedestación-bipedestación.",
+      "file": null,
+      "asset_status": "pending_creation"
+    },
+    {
+      "asset_id": "VIS-09C",
+      "type": "diagrama_original",
+      "description": "Ejemplos de independencia, supervisión y asistencia física.",
+      "file": null,
+      "asset_status": "pending_creation"
+    }
+  ],
+  "record_fields": [
+    "Fecha",
+    "Actividad",
+    "Nivel de independencia",
+    "Tipo de asistencia",
+    "Ayuda técnica",
+    "Tiempo si corresponde",
+    "Dolor/dificultad",
+    "Barreras ambientales",
+    "Puntuación",
+    "Observaciones"
+  ],
+  "safety": [
+    "Valorar riesgo de caída",
+    "Adaptar pruebas al estado cognitivo y físico",
+    "Respetar fatiga, dolor y restricciones",
+    "Proteger privacidad",
+    "Diferenciar capacidad observada y desempeño habitual"
+  ],
+  "activities": [
+    "Diferenciar actividades básicas e instrumentales",
+    "Identificar niveles de asistencia",
+    "Practicar evaluación de transferencias",
+    "Interpretar escalas",
+    "Analizar barreras ambientales",
+    "Diseñar objetivos funcionales"
+  ],
+  "references": [
+    "Mahoney FI, Barthel DW. Functional Evaluation: The Barthel Index. 1965. Verificar datos completos.",
+    "Katz S et al. Studies of illness in the aged: the Index of ADL. 1963. Verificar datos completos.",
+    "Lawton MP, Brody EM. Assessment of older people: self-maintaining and instrumental activities of daily living. 1969. Verificar datos completos.",
+    "FIM: referencia y condiciones de uso pendientes de verificación."
+  ],
+  "licensing": {
+    "reproduction_allowed": null,
+    "conditions": "Verificar derechos, licencias y condiciones de uso de cada escala, formulario, imagen y protocolo oficial antes de publicarlos o reproducirlos.",
+    "source_verification": "pending"
+  },
+  "review_status": "content_draft",
+  "version": "1.0",
+  "language": "es",
+  "content_notice": "Borrador educativo para revisión académica. No sustituye formación, supervisión clínica, juicio profesional ni protocolos institucionales."
+}

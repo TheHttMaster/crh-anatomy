@@ -1,0 +1,155 @@
+{
+  "instrument_id": "INS-04",
+  "title": "Evaluación del dolor",
+  "category": "Evaluación clínica transversal",
+  "related_specialties": [
+    "Musculoesquelética",
+    "Neurológica",
+    "Deportiva",
+    "Traumatológica",
+    "Oncológica",
+    "Cardiorrespiratoria",
+    "Suelo pélvico",
+    "Geriátrica"
+  ],
+  "target_population": [
+    "Adultos",
+    "Adultos mayores",
+    "Población pediátrica con escalas adaptadas"
+  ],
+  "purpose": "Caracterizar el dolor, valorar su intensidad y analizar su repercusión sobre la función y la calidad de vida.",
+  "variables": [
+    "Intensidad",
+    "Localización",
+    "Duración",
+    "Frecuencia",
+    "Cualidad",
+    "Irradiación",
+    "Factores agravantes",
+    "Factores atenuantes",
+    "Interferencia funcional",
+    "Sueño",
+    "Respuesta al tratamiento"
+  ],
+  "tools": [
+    "Escalas impresas o digitales autorizadas",
+    "Diagrama corporal propio o autorizado",
+    "Registro clínico",
+    "Entrevista estructurada"
+  ],
+  "protocols": [
+    "Entrevista sobre características del dolor",
+    "Escala Visual Analógica",
+    "Escala Numérica del Dolor",
+    "Escala Verbal Descriptiva",
+    "Faces Pain Scale-Revised",
+    "Cuestionario McGill",
+    "Brief Pain Inventory",
+    "DN4",
+    "PEG Scale"
+  ],
+  "scales": [
+    {
+      "name": "Escala Visual Analógica",
+      "abbreviation": "EVA",
+      "purpose": "Representar la intensidad percibida del dolor; usar versión y anclajes definidos."
+    },
+    {
+      "name": "Escala Numérica del Dolor",
+      "abbreviation": "END/NRS",
+      "range": "0–10 en versiones habituales",
+      "purpose": "Cuantificar intensidad percibida; documentar anclajes."
+    },
+    {
+      "name": "Faces Pain Scale-Revised",
+      "abbreviation": "FPS-R",
+      "purpose": "Valorar dolor mediante caras; usar versión oficial y apropiada para la población."
+    },
+    {
+      "name": "McGill Pain Questionnaire",
+      "abbreviation": "MPQ",
+      "purpose": "Caracterizar dimensiones sensoriales y afectivas; verificar licencia y versión."
+    },
+    {
+      "name": "Brief Pain Inventory",
+      "abbreviation": "BPI",
+      "purpose": "Evaluar intensidad e interferencia del dolor; verificar licencia y versión."
+    },
+    {
+      "name": "Douleur Neuropathique 4",
+      "abbreviation": "DN4",
+      "purpose": "Apoyar el cribado de características de dolor neuropático; no establece por sí solo un diagnóstico."
+    },
+    {
+      "name": "PEG Scale",
+      "purpose": "Valorar dolor e interferencia con disfrute de la vida y actividad general; verificar versión."
+    }
+  ],
+  "visual_assets": [
+    {
+      "asset_id": "VIS-04A",
+      "type": "diagrama_original",
+      "description": "Ejemplo didáctico de escala numérica 0–10, con anclajes explicativos; no reproduce formularios protegidos.",
+      "file": "VIS-04_escala_numerica_dolor.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-04B",
+      "type": "diagrama_original",
+      "description": "Mapa corporal esquemático para localizar dolor.",
+      "file": "VIS-04_mapa_corporal.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-04C",
+      "type": "lamina",
+      "description": "Representación educativa de dolor localizado, irradiado y referido.",
+      "file": null,
+      "asset_status": "pending_creation"
+    }
+  ],
+  "record_fields": [
+    "Fecha",
+    "Localización",
+    "Intensidad",
+    "Escala y versión",
+    "Inicio",
+    "Duración",
+    "Frecuencia",
+    "Cualidad descrita",
+    "Factores agravantes",
+    "Factores atenuantes",
+    "Interferencia funcional",
+    "Observaciones"
+  ],
+  "safety": [
+    "Respetar experiencia subjetiva del paciente",
+    "Adaptar escala a edad y comunicación",
+    "No interpretar puntuación aislada como diagnóstico",
+    "Investigar signos de alarma y causas que requieran derivación",
+    "No usar DN4 como sustituto de valoración diagnóstica"
+  ],
+  "activities": [
+    "Diferenciar intensidad y características",
+    "Practicar escalas autorizadas",
+    "Localizar dolor en mapa corporal",
+    "Analizar casos",
+    "Comparar resultados",
+    "Relacionar dolor y función"
+  ],
+  "references": [
+    "Melzack R. The short-form McGill Pain Questionnaire. 1987. Verificar datos completos.",
+    "Cleeland CS, Ryan KM. Pain assessment: global use of the Brief Pain Inventory. 1994. Verificar datos completos.",
+    "Bouhassira D et al. Desarrollo/validación del DN4. 2005. Verificar título y datos bibliográficos.",
+    "Krebs EE et al. Estudio de comparación BPI y PEG. 2009. Verificar datos completos."
+  ],
+  "licensing": {
+    "reproduction_allowed": null,
+    "conditions": "Verificar derechos, licencias y condiciones de uso de cada escala, formulario, imagen y protocolo oficial antes de publicarlos o reproducirlos.",
+    "source_verification": "pending"
+  },
+  "review_status": "content_draft",
+  "version": "1.0",
+  "language": "es",
+  "content_notice": "Borrador educativo para revisión académica. No sustituye formación, supervisión clínica, juicio profesional ni protocolos institucionales."
+}

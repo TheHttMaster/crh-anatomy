@@ -19,6 +19,8 @@ module.exports = {
   TRUST_PROXY: process.env.TRUST_PROXY !== undefined ? process.env.TRUST_PROXY : IS_PROD ? "1" : "false",
   GEMINI_API_KEY: process.env.GEMINI_API_KEY || "",
   GEMINI_MODEL: process.env.GEMINI_MODEL || "gemini-3.8-flash",
+  GEMINI_RETRIES: Number.isInteger(Number(process.env.GEMINI_RETRIES)) && process.env.GEMINI_RETRIES !== undefined && process.env.GEMINI_RETRIES !== "" ? Number(process.env.GEMINI_RETRIES) : 2,
+  GEMINI_RETRY_BASE_MS: int(process.env.GEMINI_RETRY_BASE_MS, 800),
   GEMINI_TIMEOUT_MS: int(process.env.GEMINI_TIMEOUT_MS, 30000),
   RATE_LIMIT_PER_MIN: int(process.env.RATE_LIMIT_PER_MIN, 20),
   CORS_ORIGIN: process.env.CORS_ORIGIN || "",

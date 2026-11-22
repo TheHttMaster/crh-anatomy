@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<title>Partes del goniómetro</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="48" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#18352d">Partes del goniómetro</text>
+
+<circle cx="450" cy="280" r="115" fill="#f3f7f5" stroke="#294c40" stroke-width="5"/>
+<circle cx="450" cy="280" r="12" fill="#294c40"/>
+<line x1="450" y1="280" x2="210" y2="280" stroke="#1a8b62" stroke-width="16" stroke-linecap="round"/>
+<line x1="450" y1="280" x2="610" y2="105" stroke="#3679a8" stroke-width="16" stroke-linecap="round"/>
+<path d="M450 280 L450 155" stroke="#999" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="90" y="265" font-family="Arial" font-size="23" fill="#1a8b62">Brazo fijo</text>
+<text x="625" y="105" font-family="Arial" font-size="23" fill="#3679a8">Brazo móvil</text>
+<text x="475" y="315" font-family="Arial" font-size="21" fill="#294c40">Fulcro</text>
+<text x="375" y="435" font-family="Arial" font-size="20" fill="#555">Escala graduada (representación esquemática)</text>
+
+<text x="40" y="498" font-family="Arial,sans-serif" font-size="13" fill="#666">CrH-Anatomy · Diagrama educativo original · No sustituye protocolos oficiales</text>
+</svg>

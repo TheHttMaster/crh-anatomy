@@ -38,7 +38,22 @@ if (!stage) throw new Error('no stage');
 /* --- Escena --- */
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(35, 1, 0.001, 100);
-const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+function makeRenderer() {
+  // Se prueban configuraciones cada vez más simples: en algunos PC (drivers antiguos, GPU en lista negra) falla la primera.
+  const tries = [
+    { antialias: true, alpha: true, preserveDrawingBuffer: true },
+    { antialias: false, alpha: true },
+    { antialias: false, alpha: true, powerPreference: 'low-power', failIfMajorPerformanceCaveat: false },
+  ];
+  for (const opts of tries) { try { return new THREE.WebGLRenderer(opts); } catch (e) { /* siguiente */ } }
+  return null;
+}
+const renderer = makeRenderer();
+if (!renderer) {
+  $('loading').innerHTML = 'Tu navegador no pudo iniciar WebGL, necesario para el modelo 3D.<br><small>Activa la aceleración por hardware (Chrome: Configuración → Sistema → “Usar aceleración gráfica cuando esté disponible”), actualiza los drivers de la tarjeta gráfica o prueba otro navegador. Comprueba el estado en chrome://gpu.</small>';
+  throw new Error('webgl-unavailable');
+}
+renderer.domElement.addEventListener('webglcontextlost', (e) => { e.preventDefault(); $('loading').hidden = false; $('loading').textContent = 'Se perdió el contexto gráfico. Recarga la página (Ctrl+Shift+R).'; });
 renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 stage.appendChild(renderer.domElement);
@@ -89,7 +104,7 @@ loadBuffer().then((buf) => new Promise((ok, ko) => new GLTFLoader().parse(buf, '
     const m = META[id]; if (!m) return;
     o.material = new THREE.MeshStandardMaterial({ color: BASE[m[2]], roughness: 0.55, metalness: 0.02, side: THREE.DoubleSide, transparent: true, opacity: 1 });
     o.userData.id = id;
-    const lab = document.createElement('div'); lab.className = 'lbl'; lab.textContent = m[0];
+    const lab = document.createElement('div'); lab.className = 'lbl3d'; lab.textContent = m[0];
     const lo = new CSS2DObject(lab); lo.visible = false;
     const box = new THREE.Box3().setFromObject(o); lo.position.copy(box.getCenter(new THREE.Vector3())); scene.add(lo);
     items[id] = { mesh: o, label: lo, visible: true, group: m[2] };

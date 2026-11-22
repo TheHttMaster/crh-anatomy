@@ -1,0 +1,130 @@
+{
+  "instrument_id": "INS-05",
+  "title": "Evaluación de la sensibilidad",
+  "category": "Evaluación neurológica",
+  "related_specialties": [
+    "Neurológica",
+    "Musculoesquelética",
+    "Deportiva",
+    "Traumatológica",
+    "Geriátrica",
+    "Pediátrica"
+  ],
+  "target_population": [
+    "Adultos",
+    "Adultos mayores",
+    "Población pediátrica con protocolos adaptados"
+  ],
+  "purpose": "Explorar modalidades sensitivas superficiales, profundas y corticales, identificando alteraciones y su distribución.",
+  "variables": [
+    "Tacto ligero",
+    "Sensibilidad dolorosa",
+    "Sensibilidad térmica",
+    "Sensibilidad vibratoria",
+    "Propiocepción",
+    "Discriminación de dos puntos",
+    "Estereognosia",
+    "Grafestesia",
+    "Distribución sensitiva",
+    "Simetría"
+  ],
+  "tools": [
+    "Algodón",
+    "Dispositivo romo/punzante clínico seguro",
+    "Diapasón de 128 Hz",
+    "Monofilamentos Semmes-Weinstein",
+    "Discriminador de dos puntos",
+    "Objetos de reconocimiento táctil",
+    "Material térmico seguro"
+  ],
+  "protocols": [
+    "Tacto ligero",
+    "Sensibilidad dolorosa",
+    "Sensibilidad térmica",
+    "Sensibilidad vibratoria",
+    "Propiocepción",
+    "Discriminación de dos puntos",
+    "Estereognosia",
+    "Grafestesia",
+    "Exploración por dermatomas",
+    "Exploración por territorios de nervios periféricos"
+  ],
+  "scales": [
+    {
+      "name": "Monofilamentos Semmes-Weinstein",
+      "purpose": "Valorar umbrales de sensibilidad mediante filamentos calibrados; aplicar protocolo específico."
+    },
+    {
+      "name": "Discriminación de dos puntos",
+      "purpose": "Explorar capacidad de diferenciar dos estímulos táctiles próximos; registrar sitio y distancia."
+    },
+    {
+      "name": "Registro sensitivo clínico",
+      "purpose": "Describir modalidad conservada, disminuida, ausente o alterada, indicando método y distribución."
+    }
+  ],
+  "visual_assets": [
+    {
+      "asset_id": "VIS-05A",
+      "type": "mapa_anatomico",
+      "description": "Mapa de dermatomas del tronco y extremidades.",
+      "file": null,
+      "asset_status": "pending_creation_and_source_verification"
+    },
+    {
+      "asset_id": "VIS-05B",
+      "type": "mapa_anatomico",
+      "description": "Territorios sensitivos de nervios periféricos principales.",
+      "file": null,
+      "asset_status": "pending_creation_and_source_verification"
+    },
+    {
+      "asset_id": "VIS-05C",
+      "type": "instrumentos",
+      "description": "Monofilamentos, diapasón, neurotip y discriminador.",
+      "file": null,
+      "asset_status": "pending_creation_and_verification"
+    }
+  ],
+  "record_fields": [
+    "Fecha",
+    "Región",
+    "Lateralidad",
+    "Modalidad",
+    "Instrumento",
+    "Resultado",
+    "Distribución",
+    "Respuesta del paciente",
+    "Observaciones"
+  ],
+  "safety": [
+    "Explicar estímulos antes de aplicarlos",
+    "Evitar elementos que lesionen la piel",
+    "No aplicar temperaturas extremas",
+    "Evitar heridas o tejidos lesionados",
+    "Higienizar instrumentos",
+    "Adaptar a capacidad cognitiva y comunicativa"
+  ],
+  "activities": [
+    "Identificar modalidades sensitivas",
+    "Reconocer dermatomas",
+    "Identificar territorios nerviosos",
+    "Practicar exploración bilateral",
+    "Diferenciar alteraciones",
+    "Interpretar mapas sensitivos"
+  ],
+  "references": [
+    "Bates' Guide to Physical Examination and History Taking. Verificar edición.",
+    "DeJong's The Neurologic Examination. Verificar edición.",
+    "American Diabetes Association. Standards of Care in Diabetes: evaluación de neuropatía periférica; identificar edición/año aplicable."
+  ],
+  "licensing": {
+    "reproduction_allowed": null,
+    "conditions": "Verificar derechos, licencias y condiciones de uso de cada escala, formulario, imagen y protocolo oficial antes de publicarlos o reproducirlos.",
+    "source_verification": "pending"
+  },
+  "review_status": "content_draft",
+  "version": "1.0",
+  "language": "es",
+  "content_notice": "Borrador educativo para revisión académica. No sustituye formación, supervisión clínica, juicio profesional ni protocolos institucionales."
+}

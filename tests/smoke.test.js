@@ -21,7 +21,7 @@ test("health responde 200", async () => {
 });
 
 test("todas las páginas responden con HTML y cabeceras de seguridad", async () => {
-  for (const p of ["/", "/atlas", "/modelos", "/lamina", "/biblioteca", "/patologias", "/quiz", "/asistente"]) {
+  for (const p of ["/", "/atlas", "/modelos", "/lamina", "/biblioteca", "/instrumentos", "/patologias", "/quiz", "/asistente"]) {
     const r = await fetch(base + p);
     assert.equal(r.status, 200, p);
     assert.match(r.headers.get("content-type"), /text\/html/);
@@ -70,4 +70,11 @@ test("ruta api desconocida devuelve JSON 404", async () => {
   const r = await fetch(base + "/api/nada");
   assert.equal(r.status, 404);
   assert.ok((await r.json()).error);
+});
+
+test("catálogo de instrumentos válido y generado", () => {
+  const { build } = require("../scripts/build-catalog.js");
+  const r = build();
+  assert.deepEqual(r.errors, []);
+  assert.equal(r.data.instruments.length, 10);
 });

@@ -1,0 +1,71 @@
+{
+  "catalog_id": "CRH-CAT-INS-01-10",
+  "title": "Catálogo central de instrumentos de evaluación fisioterapéutica",
+  "version": "1.0",
+  "language": "es",
+  "status": "content_draft",
+  "instrument_count": 10,
+  "instruments": [
+    {
+      "instrument_id": "INS-01",
+      "title": "Goniometría y evaluación del rango de movimiento articular",
+      "file": "instrumentos/ins-01.json",
+      "category": "Evaluación musculoesquelética"
+    },
+    {
+      "instrument_id": "INS-02",
+      "title": "Evaluación de fuerza muscular",
+      "file": "instrumentos/ins-02.json",
+      "category": "Evaluación musculoesquelética y neuromuscular"
+    },
+    {
+      "instrument_id": "INS-03",
+      "title": "Evaluación del equilibrio y la marcha",
+      "file": "instrumentos/ins-03.json",
+      "category": "Evaluación funcional y neurológica"
+    },
+    {
+      "instrument_id": "INS-04",
+      "title": "Evaluación del dolor",
+      "file": "instrumentos/ins-04.json",
+      "category": "Evaluación clínica transversal"
+    },
+    {
+      "instrument_id": "INS-05",
+      "title": "Evaluación de la sensibilidad",
+      "file": "instrumentos/ins-05.json",
+      "category": "Evaluación neurológica"
+    },
+    {
+      "instrument_id": "INS-06",
+      "title": "Evaluación postural",
+      "file": "instrumentos/ins-06.json",
+      "category": "Evaluación musculoesquelética y biomecánica"
+    },
+    {
+      "instrument_id": "INS-07",
+      "title": "Evaluación neurológica",
+      "file": "instrumentos/ins-07.json",
+      "category": "Evaluación neurológica y funcional"
+    },
+    {
+      "instrument_id": "INS-08",
+      "title": "Evaluación cardiorrespiratoria",
+      "file": "instrumentos/ins-08.json",
+      "category": "Evaluación cardiorrespiratoria"
+    },
+    {
+      "instrument_id": "INS-09",
+      "title": "Evaluación funcional",
+      "file": "instrumentos/ins-09.json",
+      "category": "Evaluación funcional y de independencia"
+    },
+    {
+      "instrument_id": "INS-10",
+      "title": "Evaluación antropométrica",
+      "file": "instrumentos/ins-10.json",
+      "category": "Evaluación antropométrica y composición corporal"
+    }
+  ],
+  "integration_note": "Cargar cada JSON individual mediante su ruta relativa. No tratar este catálogo como validación clínica."
+}

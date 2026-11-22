@@ -1,0 +1,118 @@
+{
+  "instrument_id": "INS-02",
+  "title": "Evaluación de fuerza muscular",
+  "category": "Evaluación musculoesquelética y neuromuscular",
+  "related_specialties": [
+    "Musculoesquelética",
+    "Neurológica",
+    "Deportiva",
+    "Traumatológica",
+    "Pediátrica",
+    "Geriátrica"
+  ],
+  "target_population": [
+    "Adultos",
+    "Adultos mayores",
+    "Población pediátrica con adaptación"
+  ],
+  "purpose": "Valorar la capacidad de producción de fuerza muscular mediante procedimientos manuales e instrumentales.",
+  "variables": [
+    "Fuerza muscular",
+    "Resistencia muscular",
+    "Lateralidad",
+    "Fatiga",
+    "Dolor",
+    "Compensaciones",
+    "Capacidad funcional"
+  ],
+  "tools": [
+    "Camilla",
+    "Dinamómetro manual",
+    "Dinamómetro de prensión",
+    "Dinamómetro isocinético",
+    "Material de resistencia"
+  ],
+  "protocols": [
+    "Balance muscular manual",
+    "Escala MRC",
+    "Dinamometría manual",
+    "Dinamometría de prensión",
+    "Evaluación isocinética",
+    "Five Times Sit to Stand",
+    "30-Second Chair Stand",
+    "Elevación repetida de talones"
+  ],
+  "scales": [
+    {
+      "name": "Medical Research Council",
+      "abbreviation": "MRC",
+      "range": "0–5",
+      "purpose": "Graduar la fuerza muscular mediante exploración manual; aplicar criterios estandarizados."
+    }
+  ],
+  "visual_assets": [
+    {
+      "asset_id": "VIS-02A",
+      "type": "diagrama_original",
+      "description": "Resumen didáctico de grados MRC 0–5; no sustituye el formulario o protocolo oficial.",
+      "file": "VIS-02_MRC_grados.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-02B",
+      "type": "lamina",
+      "description": "Posiciones de exploración muscular por regiones corporales.",
+      "file": null,
+      "asset_status": "pending_creation"
+    },
+    {
+      "asset_id": "VIS-02C",
+      "type": "instrumentos",
+      "description": "Dinamómetro manual, de prensión e isocinético.",
+      "file": null,
+      "asset_status": "pending_creation_and_verification"
+    }
+  ],
+  "record_fields": [
+    "Fecha",
+    "Grupo muscular",
+    "Lateralidad",
+    "Método",
+    "Posición",
+    "Grado o valor",
+    "Unidad",
+    "Dolor",
+    "Fatiga",
+    "Compensaciones",
+    "Observaciones"
+  ],
+  "safety": [
+    "Respetar restricciones posquirúrgicas y lesiones agudas",
+    "Evitar resistencia máxima cuando esté contraindicada",
+    "Vigilar dolor, fatiga y respuesta cardiovascular",
+    "Adaptar el esfuerzo a la condición neurológica y funcional"
+  ],
+  "activities": [
+    "Identificar grupos musculares",
+    "Practicar posiciones de evaluación",
+    "Diferenciar grados MRC",
+    "Comparar evaluación manual e instrumental",
+    "Registrar resultados",
+    "Interpretar cambios"
+  ],
+  "references": [
+    "Medical Research Council. Aids to the examination of the peripheral nervous system. Verificar edición.",
+    "Kendall FP et al. Muscles: Testing and Function. Verificar edición.",
+    "Daniels and Worthingham's Muscle Testing. Verificar edición.",
+    "Bohannon RW. Literatura sobre evaluación de fuerza muscular: seleccionar referencias específicas."
+  ],
+  "licensing": {
+    "reproduction_allowed": null,
+    "conditions": "Verificar derechos, licencias y condiciones de uso de cada escala, formulario, imagen y protocolo oficial antes de publicarlos o reproducirlos.",
+    "source_verification": "pending"
+  },
+  "review_status": "content_draft",
+  "version": "1.0",
+  "language": "es",
+  "content_notice": "Borrador educativo para revisión académica. No sustituye formación, supervisión clínica, juicio profesional ni protocolos institucionales."
+}

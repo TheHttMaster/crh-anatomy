@@ -1,0 +1,141 @@
+{
+  "instrument_id": "INS-08",
+  "title": "Evaluación cardiorrespiratoria",
+  "category": "Evaluación cardiorrespiratoria",
+  "related_specialties": [
+    "Cardiorrespiratoria",
+    "Cuidados intensivos",
+    "Oncológica",
+    "Geriátrica",
+    "Neurológica",
+    "Deportiva"
+  ],
+  "target_population": [
+    "Adultos",
+    "Adultos mayores",
+    "Población pediátrica con protocolos específicos"
+  ],
+  "purpose": "Valorar parámetros respiratorios y cardiovasculares, respuesta al esfuerzo y tolerancia funcional.",
+  "variables": [
+    "Frecuencia cardíaca",
+    "Frecuencia respiratoria",
+    "Presión arterial",
+    "SpO2",
+    "Patrón respiratorio",
+    "Expansión torácica",
+    "Disnea",
+    "Fatiga",
+    "Tos y secreciones",
+    "Tolerancia al ejercicio"
+  ],
+  "tools": [
+    "Estetoscopio",
+    "Esfigmomanómetro",
+    "Pulsioxímetro",
+    "Cronómetro",
+    "Cinta métrica",
+    "Peak flow meter",
+    "Espirometría cuando esté disponible e indicada"
+  ],
+  "protocols": [
+    "Medición de frecuencia cardíaca y respiratoria",
+    "Presión arterial",
+    "Oximetría de pulso",
+    "Observación del patrón respiratorio",
+    "Expansión torácica",
+    "Borg",
+    "mMRC",
+    "6 Minute Walk Test",
+    "Fuerza muscular respiratoria",
+    "Pruebas de función pulmonar según indicación"
+  ],
+  "scales": [
+    {
+      "name": "Borg Rating of Perceived Exertion",
+      "abbreviation": "Borg 6–20",
+      "purpose": "Cuantificar percepción subjetiva del esfuerzo."
+    },
+    {
+      "name": "Borg CR10",
+      "purpose": "Cuantificar percepción de disnea o esfuerzo."
+    },
+    {
+      "name": "Modified Medical Research Council",
+      "abbreviation": "mMRC",
+      "purpose": "Clasificar grado de disnea relacionada con actividad."
+    },
+    {
+      "name": "Six Minute Walk Test",
+      "abbreviation": "6MWT",
+      "purpose": "Evaluar capacidad funcional mediante distancia recorrida en seis minutos."
+    }
+  ],
+  "visual_assets": [
+    {
+      "asset_id": "VIS-08A",
+      "type": "diagrama_original",
+      "description": "Referencias anatómicas para medición de expansión torácica.",
+      "file": "VIS-08_expansion_toracica.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-08B",
+      "type": "instrumentos",
+      "description": "Pulsioxímetro, esfigmomanómetro y peak flow meter.",
+      "file": null,
+      "asset_status": "pending_creation_and_verification"
+    },
+    {
+      "asset_id": "VIS-08C",
+      "type": "diagrama_original",
+      "description": "Ejemplos esquemáticos de patrones respiratorios.",
+      "file": null,
+      "asset_status": "pending_creation"
+    }
+  ],
+  "record_fields": [
+    "Fecha y hora",
+    "Frecuencia cardíaca",
+    "Frecuencia respiratoria",
+    "Presión arterial",
+    "SpO2",
+    "Patrón respiratorio",
+    "Disnea",
+    "Fatiga",
+    "Distancia",
+    "Oxigenoterapia/dispositivos",
+    "Respuesta antes-durante-después",
+    "Observaciones"
+  ],
+  "safety": [
+    "Comprobar estabilidad clínica antes de pruebas de esfuerzo",
+    "Respetar indicaciones y protocolos institucionales",
+    "Considerar oxigenoterapia y dispositivos",
+    "Suspender ante deterioro o signos de alarma",
+    "Interpretar SpO2 en contexto clínico",
+    "El espirómetro incentivador no sustituye espirometría diagnóstica"
+  ],
+  "activities": [
+    "Identificar parámetros",
+    "Practicar medición de signos vitales",
+    "Reconocer patrones respiratorios",
+    "Interpretar escalas de disnea",
+    "Analizar respuestas al esfuerzo",
+    "Registrar pruebas funcionales"
+  ],
+  "references": [
+    "ATS. Guidelines for the Six-Minute Walk Test. 2002. Verificar publicación exacta.",
+    "Graham BL et al. Standardization of Spirometry 2019 Update. ATS/ERS. Verificar datos completos.",
+    "Borg G. Borg's Perceived Exertion and Pain Scales. 1998. Verificar edición.",
+    "Global Initiative for Chronic Obstructive Lung Disease (GOLD). Utilizar informe vigente aplicable."
+  ],
+  "licensing": {
+    "reproduction_allowed": null,
+    "conditions": "Verificar derechos, licencias y condiciones de uso de cada escala, formulario, imagen y protocolo oficial antes de publicarlos o reproducirlos.",
+    "source_verification": "pending"
+  },
+  "review_status": "content_draft",
+  "version": "1.0",
+  "language": "es",
+  "content_notice": "Borrador educativo para revisión académica. No sustituye formación, supervisión clínica, juicio profesional ni protocolos institucionales."
+}

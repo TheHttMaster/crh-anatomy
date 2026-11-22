@@ -1819,7 +1819,7 @@ label.lbl {
   overflow: hidden
 }
 
-.lbl {
+.lbl3d {
   background: rgba(18, 59, 93, .88);
   color: #fff;
   font-size: .74rem;
@@ -1902,4 +1902,52 @@ label.lbl {
 
 [hidden] {
   display: none !important
+}
+
+/* ===== Catálogo de instrumentos ===== */
+.ins-tools{display:grid;gap:10px;grid-template-columns:1fr auto;align-items:end;margin-bottom:16px}
+.ins-filters{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:18px}
+.ins-filters select{min-width:200px}
+.ins-card{display:flex;flex-direction:column;gap:10px;text-align:left;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:var(--shadow-sm);transition:.18s;width:100%}
+.ins-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:rgba(22,122,103,.45)}
+.ins-card .id{font-family:var(--serif);color:var(--g);font-weight:700;font-size:1.05rem}
+.ins-card h3{font-size:1.1rem;margin:0}
+.ins-card p{margin:0;color:var(--mut);font-size:.9rem}
+.ins-detail{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow-sm);padding:28px;margin-top:6px}
+.ins-detail header{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start;justify-content:space-between;margin-bottom:6px}
+.ins-detail h2{font-size:clamp(1.4rem,3vw,2rem);margin:6px 0}
+.ins-sec{margin-top:26px}
+.ins-sec h3{font-family:var(--sans);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--g);margin-bottom:10px}
+.ins-sec ul,.ins-sec ol{margin:0;padding-left:1.2rem}.ins-sec li{margin-bottom:5px}
+.pill-list{display:flex;flex-wrap:wrap;gap:8px;padding:0!important;list-style:none}
+.pill-list li{margin:0;background:var(--mint-2);border:1px solid var(--line);border-radius:99px;padding:5px 12px;font-size:.88rem}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+.ins-table{width:100%;border-collapse:collapse;font-size:.92rem;min-width:560px}
+.ins-table th,.ins-table td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.ins-table th{background:var(--mint-2);font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;color:var(--g-dark)}
+.ins-table tr:last-child td{border-bottom:0}
+.vis-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.vis{margin:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.vis button{display:block;width:100%;border:0;background:#fff;padding:0;cursor:zoom-in}
+.vis img{width:100%;height:auto;background:#fff}
+.vis figcaption{padding:10px 12px;font-size:.84rem;color:var(--mut);border-top:1px solid var(--line)}
+.vis.pending{display:grid;place-items:center;min-height:120px;background:var(--mint-2);border-style:dashed;text-align:center;padding:14px}
+.pelvic{background:var(--mint-2);border:1px solid var(--line);border-left:4px solid var(--g);border-radius:12px;padding:16px 18px}
+.pelvic ul{margin:0;padding-left:1.1rem}
+.ins-back{margin-bottom:8px}
+.xlink{font-size:.8rem;margin-left:6px;white-space:nowrap}
+.refs li{color:var(--mut);font-size:.9rem}
+.refs .verify{display:inline-block;margin-left:6px;font-size:.72rem;font-weight:700;color:var(--g-dark);background:var(--warn-bg);border-radius:99px;padding:1px 8px}
+@media(max-width:700px){.ins-tools{grid-template-columns:1fr}.ins-detail{padding:20px 16px}}
+.answer.correct::before{content:"✓ "}
+.answer.wrong::before{content:"✗ "}
+.msg.bot.err{background:var(--rose-soft);border-color:rgba(18,59,93,.20)}
+
+/* Menú: evita que las etiquetas se partan en dos líneas en pantallas medianas */
+@media (min-width: 981px) {
+  .main-nav a { white-space: nowrap; }
+}
+@media (min-width: 981px) and (max-width: 1180px) {
+  .main-nav a { padding-left: 9px; padding-right: 9px; font-size: .9rem; }
+  .brand-text small { display: none; }
 }

@@ -47,3 +47,10 @@ CSP estricta (solo recursos propios + Google Fonts), HSTS en producción, compre
 
 ## Licencias y atribución
 Los modelos 3D proceden de [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy) (derivados de BodyParts3D), licencia **CC BY-SA 4.0**; `public/img/pelvis.glb` es una adaptación y debe compartirse con la misma licencia. El contenido es educativo y no sustituye la valoración de un profesional de la salud.
+
+## Catálogo de instrumentos (INS-01 a INS-10)
+
+- Contenido original: `content/catalogo/` (no se modifica). Capa de enlace con suelo pélvico: `content/catalogo/crh_suelo_pelvico.json`.
+- Diagramas: `public/img/instrumentos/`. Página: `/instrumentos` (`views/pages/instrumentos.html`, `public/js/instrumentos.js`).
+- Tras cambiar el catálogo: `npm run build:catalog` (valida y regenera `public/js/data/catalog.js`).
+- Estado: borrador educativo; referencias por verificar y licencias pendientes.

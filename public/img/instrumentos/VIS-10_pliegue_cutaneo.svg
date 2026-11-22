@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<title>Pliegue cutáneo: esquema de técnica</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="48" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#18352d">Pliegue cutáneo: esquema de técnica</text>
+
+<path d="M250 300 Q450 180 650 300 Q450 420 250 300Z" fill="#f3d9ca" stroke="#9a6b57" stroke-width="4"/>
+<path d="M420 285 Q450 210 480 285" fill="none" stroke="#9a6b57" stroke-width="7"/>
+<path d="M450 115 L450 220 M435 205 L450 225 L465 205" stroke="#34785a" stroke-width="6" fill="none"/>
+<rect x="490" y="85" width="150" height="70" rx="10" fill="#eaf2ed" stroke="#34785a" stroke-width="3"/>
+<text x="565" y="115" font-family="Arial" font-size="18" text-anchor="middle" fill="#24483a">Plicómetro</text>
+<text x="565" y="138" font-family="Arial" font-size="14" text-anchor="middle" fill="#24483a">representación</text>
+<text x="450" y="465" font-family="Arial" font-size="18" text-anchor="middle" fill="#555">Esquema conceptual: puntos, agarre y procedimiento dependen del protocolo antropométrico.</text>
+
+<text x="40" y="498" font-family="Arial,sans-serif" font-size="13" fill="#666">CrH-Anatomy · Diagrama educativo original · No sustituye protocolos oficiales</text>
+</svg>

@@ -1,0 +1,165 @@
+{
+  "instrument_id": "INS-07",
+  "title": "Evaluación neurológica",
+  "category": "Evaluación neurológica y funcional",
+  "related_specialties": [
+    "Neurológica",
+    "Geriátrica",
+    "Pediátrica",
+    "Traumatológica",
+    "Cuidados intensivos",
+    "Oncológica"
+  ],
+  "target_population": [
+    "Adultos",
+    "Adultos mayores",
+    "Población pediátrica con protocolos específicos"
+  ],
+  "purpose": "Explorar funciones neurológicas relacionadas con conciencia, movimiento, sensibilidad, reflejos, coordinación y control postural.",
+  "variables": [
+    "Estado de conciencia",
+    "Estado mental",
+    "Pares craneales",
+    "Función motora",
+    "Tono muscular",
+    "Reflejos",
+    "Sensibilidad",
+    "Coordinación",
+    "Equilibrio",
+    "Marcha",
+    "Control postural"
+  ],
+  "tools": [
+    "Martillo de reflejos",
+    "Linterna clínica",
+    "Algodón",
+    "Diapasón",
+    "Material de exploración sensitiva",
+    "Cronómetro",
+    "Material de evaluación funcional"
+  ],
+  "protocols": [
+    "Estado de conciencia",
+    "Pares craneales",
+    "Exploración motora",
+    "Tono muscular",
+    "Reflejos osteotendinosos",
+    "Sensibilidad",
+    "Coordinación",
+    "Equilibrio",
+    "Marcha",
+    "Función"
+  ],
+  "scales": [
+    {
+      "name": "Glasgow Coma Scale",
+      "abbreviation": "GCS",
+      "purpose": "Valorar nivel de conciencia mediante respuestas ocular, verbal y motora."
+    },
+    {
+      "name": "Modified Ashworth Scale",
+      "abbreviation": "MAS",
+      "purpose": "Graduar resistencia percibida durante movimiento pasivo como aproximación clínica a espasticidad; no es medida pura de tono."
+    },
+    {
+      "name": "Medical Research Council",
+      "abbreviation": "MRC",
+      "range": "0–5",
+      "purpose": "Graduar fuerza muscular."
+    },
+    {
+      "name": "Tardieu modificada",
+      "purpose": "Explorar respuesta muscular al estiramiento a distintas velocidades; aplicar protocolo estandarizado."
+    },
+    {
+      "name": "NIH Stroke Scale",
+      "abbreviation": "NIHSS",
+      "purpose": "Cuantificar déficits neurológicos asociados al ictus mediante protocolo específico."
+    },
+    {
+      "name": "Berg Balance Scale",
+      "abbreviation": "BBS",
+      "purpose": "Evaluar equilibrio funcional."
+    },
+    {
+      "name": "Índice de Barthel",
+      "purpose": "Valorar independencia en actividades básicas."
+    },
+    {
+      "name": "Functional Ambulation Categories",
+      "abbreviation": "FAC",
+      "purpose": "Clasificar asistencia requerida durante la marcha."
+    }
+  ],
+  "visual_assets": [
+    {
+      "asset_id": "VIS-07A",
+      "type": "mapa_anatomico",
+      "description": "Los doce pares craneales, trayectos generales y funciones principales.",
+      "file": null,
+      "asset_status": "pending_creation_and_source_verification"
+    },
+    {
+      "asset_id": "VIS-07B",
+      "type": "diagrama_original",
+      "description": "Esquema educativo de arco reflejo.",
+      "file": "VIS-07_arco_reflejo.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-07C",
+      "type": "diagrama_original",
+      "description": "Esquema de vías motoras y sensitivas principales.",
+      "file": null,
+      "asset_status": "pending_creation_and_review"
+    }
+  ],
+  "record_fields": [
+    "Fecha",
+    "Estado de conciencia",
+    "Orientación",
+    "Pares craneales",
+    "Fuerza",
+    "Tono",
+    "Reflejos",
+    "Sensibilidad",
+    "Coordinación",
+    "Equilibrio",
+    "Marcha",
+    "Escalas y resultados",
+    "Hallazgos",
+    "Observaciones"
+  ],
+  "safety": [
+    "Reconocer cambios neurológicos agudos y activar protocolos",
+    "Comprobar estabilidad antes de movilizar cuando esté comprometida",
+    "Prevenir caídas",
+    "Adaptar evaluación a conciencia y colaboración",
+    "Respetar restricciones y dispositivos",
+    "Aplicar escalas especializadas con formación adecuada"
+  ],
+  "activities": [
+    "Identificar pares craneales",
+    "Practicar exploración de reflejos",
+    "Diferenciar tono y fuerza",
+    "Reconocer signos motores",
+    "Interpretar escalas",
+    "Analizar casos clínicos"
+  ],
+  "references": [
+    "DeJong's The Neurologic Examination. Verificar edición.",
+    "Blumenfeld H. Neuroanatomy Through Clinical Cases. Verificar edición.",
+    "Teasdale G, Jennett B. Assessment of coma and impaired consciousness. 1974. Verificar datos completos.",
+    "Bohannon RW, Smith MB. Interrater reliability of a Modified Ashworth Scale of muscle spasticity. 1987. Verificar datos completos.",
+    "Brott T et al. Measurements of acute cerebral infarction: a clinical examination scale. 1989. Verificar datos completos."
+  ],
+  "licensing": {
+    "reproduction_allowed": null,
+    "conditions": "Verificar derechos, licencias y condiciones de uso de cada escala, formulario, imagen y protocolo oficial antes de publicarlos o reproducirlos.",
+    "source_verification": "pending"
+  },
+  "review_status": "content_draft",
+  "version": "1.0",
+  "language": "es",
+  "content_notice": "Borrador educativo para revisión académica. No sustituye formación, supervisión clínica, juicio profesional ni protocolos institucionales."
+}

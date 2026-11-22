@@ -1,0 +1,97 @@
+{
+  "manifest_id": "CRH-ASSET-INS-01-10",
+  "version": "1.0",
+  "assets": [
+    {
+      "file": "VIS-01_goniometro_componentes.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    },
+    {
+      "file": "VIS-02_MRC_grados.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    },
+    {
+      "file": "VIS-03_TUG_circuito.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    },
+    {
+      "file": "VIS-04_escala_numerica_dolor.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    },
+    {
+      "file": "VIS-04_mapa_corporal.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    },
+    {
+      "file": "VIS-06_planos_posturales.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    },
+    {
+      "file": "VIS-07_arco_reflejo.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    },
+    {
+      "file": "VIS-08_expansion_toracica.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    },
+    {
+      "file": "VIS-09_actividades_diarias.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    },
+    {
+      "file": "VIS-10_perimetros.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    },
+    {
+      "file": "VIS-10_pliegue_cutaneo.svg",
+      "format": "SVG",
+      "rights": "Original educativo creado para este paquete",
+      "status": "included",
+      "limitations": "Esquema didáctico; no reemplaza diagramas anatómicos detallados ni formularios oficiales."
+    }
+  ],
+  "not_included_yet": [
+    "Mapas dermatómicos completos y mapas de territorios nerviosos periféricos con fuente anatómica verificada.",
+    "Láminas articulares con referencias anatómicas específicas para protocolos goniométricos.",
+    "Formularios oficiales de escalas sujetas a licencia o permiso.",
+    "Curvas de crecimiento OMS en su versión autorizada y con atribución correspondiente.",
+    "Fotografías de instrumentos clínicos con licencia verificada."
+  ],
+  "asset_status_values": {
+    "original_educational_diagram": "Diagrama original incluido en el paquete.",
+    "pending_creation": "Recurso por crear.",
+    "pending_creation_and_verification": "Recurso por crear y verificar.",
+    "pending_creation_and_source_verification": "Recurso por crear y verificar contra fuente anatómica.",
+    "link_only_pending_source": "Debe enlazarse a una fuente autorizada cuando se seleccione."
+  }
+}

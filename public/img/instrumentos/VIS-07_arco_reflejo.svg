@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<title>Arco reflejo: esquema educativo</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="48" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#18352d">Arco reflejo: esquema educativo</text>
+
+<g font-family="Arial" font-size="20" fill="#24483a">
+<rect x="55" y="190" width="150" height="85" rx="12" fill="#e9f2ed" stroke="#34785a" stroke-width="3"/><text x="130" y="225" text-anchor="middle">Receptor</text><text x="130" y="250" text-anchor="middle">sensitivo</text>
+<rect x="285" y="190" width="150" height="85" rx="12" fill="#e9f2ed" stroke="#34785a" stroke-width="3"/><text x="360" y="225" text-anchor="middle">Vía</text><text x="360" y="250" text-anchor="middle">aferente</text>
+<rect x="515" y="190" width="150" height="85" rx="12" fill="#e9f2ed" stroke="#34785a" stroke-width="3"/><text x="590" y="225" text-anchor="middle">Centro</text><text x="590" y="250" text-anchor="middle">integrador</text>
+<rect x="745" y="190" width="110" height="85" rx="12" fill="#e9f2ed" stroke="#34785a" stroke-width="3"/><text x="800" y="225" text-anchor="middle">Vía</text><text x="800" y="250" text-anchor="middle">eferente</text>
+<path d="M205 232 H280 M435 232 H510 M665 232 H740" stroke="#1a8b62" stroke-width="6"/>
+<path d="M270 220 L285 232 L270 244 M500 220 L515 232 L500 244 M730 220 L745 232 L730 244" stroke="#1a8b62" stroke-width="5" fill="none"/>
+<text x="450" y="350" text-anchor="middle" font-size="19">Respuesta motora: efector muscular</text>
+</g>
+
+<text x="40" y="498" font-family="Arial,sans-serif" font-size="13" fill="#666">CrH-Anatomy · Diagrama educativo original · No sustituye protocolos oficiales</text>
+</svg>

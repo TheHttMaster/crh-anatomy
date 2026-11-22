@@ -1,0 +1,62 @@
+{
+  "_nota": "Capa editorial de CrH-Anatomy. NO forma parte del catálogo original INS-01…10: relaciona cada instrumento con el aprendizaje del suelo pélvico. Borrador pendiente de revisión académica; no contiene puntuaciones ni puntos de corte.",
+  "review_status": "content_draft",
+  "relevancia": {
+    "INS-01": [
+      "La movilidad de cadera y de columna lumbar forma parte de la valoración global del dolor lumbopélvico y de cadera; la goniometría documenta los límites de movimiento.",
+      "Una limitación articular no demuestra por sí sola una alteración del suelo pélvico: se interpreta junto con síntomas, función y examen específico."
+    ],
+    "INS-02": [
+      "La escala MRC (0–5) se diseñó para la exploración manual de músculos de tronco y extremidades. Para el suelo pélvico se emplean escalas específicas, como la escala de Oxford modificada y el esquema PERFECT (ver Biblioteca, tema 8).",
+      "No extrapoles grados MRC al suelo pélvico. Sí son útiles para músculos vecinos: glúteos, aductores, rotadores de cadera (obturador interno, piriforme) y musculatura abdominal."
+    ],
+    "INS-03": [
+      "En personas mayores, la urgencia miccional y la nocturia pueden asociarse a mayor riesgo de caídas; las pruebas de equilibrio y marcha ayudan a identificar limitaciones de movilidad que influyen en llegar al baño a tiempo.",
+      "Ante síntomas urinarios, la movilidad funcional forma parte del razonamiento clínico, no solo la función muscular pélvica."
+    ],
+    "INS-04": [
+      "En dolor pélvico crónico, dolor perineal o dolor con las relaciones sexuales conviene localizar el dolor (mapa corporal), caracterizarlo y registrar su relación con micción, defecación, postura y actividad sexual.",
+      "El DN4 puede apoyar el cribado de rasgos neuropáticos, pero dolor perineal no equivale automáticamente a neuralgia pudenda (ver Biblioteca, tema 5)."
+    ],
+    "INS-05": [
+      "La sensibilidad perineal depende de territorios sacros y del nervio pudendo. La exploración sensitiva en esta región exige formación, consentimiento y contexto clínico adecuados.",
+      "La anestesia en silla de montar es un signo de alarma que requiere valoración urgente (ver Biblioteca, tema 13)."
+    ],
+    "INS-06": [
+      "La alineación pélvica y lumbopélvica (anteversión, retroversión) es una referencia de observación útil para estudiar la relación entre postura y carga sobre el suelo pélvico.",
+      "La asociación entre postura y función del suelo pélvico es compleja: un hallazgo postural aislado no establece una causa."
+    ],
+    "INS-07": [
+      "La inervación sacra y el nervio pudendo participan en la función vesical, intestinal y sexual. Algunos reflejos sacros se exploran en contextos clínicos específicos y con formación (ver esquema del arco reflejo).",
+      "Déficit neurológico nuevo con alteración de la función vesical o intestinal requiere atención médica urgente."
+    ],
+    "INS-08": [
+      "El diafragma, la musculatura abdominal y el suelo pélvico trabajan de forma coordinada con la presión intraabdominal. La tos crónica es un factor de carga que se asocia a incontinencia urinaria de esfuerzo.",
+      "La valoración respiratoria permite estudiar el patrón respiratorio y su relación con la coordinación abdominopélvica."
+    ],
+    "INS-09": [
+      "Varios instrumentos de independencia funcional incluyen elementos de control vesical e intestinal y de uso del retrete. Aportan una visión de la independencia, no una evaluación específica del suelo pélvico.",
+      "Útiles para estudiar el impacto funcional de los síntomas pélvicos en la vida diaria."
+    ],
+    "INS-10": [
+      "El sobrepeso y la obesidad se reconocen como factores asociados a incontinencia urinaria y a prolapso; la cintura y el IMC ayudan a documentar el contexto.",
+      "El IMC no mide directamente la composición corporal ni es un diagnóstico."
+    ]
+  },
+  "pendientes_suelo_pelvico": {
+    "_nota": "Instrumentos específicos de suelo pélvico que el catálogo INS-01…10 aún no cubre. Solo se listan por nombre; sin contenido hasta que exista una fuente verificada y se confirmen licencias y versiones.",
+    "items": [
+      { "nombre": "Escala de Oxford modificada", "ambito": "Función muscular del suelo pélvico" },
+      { "nombre": "Esquema PERFECT", "ambito": "Función muscular del suelo pélvico" },
+      { "nombre": "POP-Q", "ambito": "Cuantificación del prolapso de órganos pélvicos" },
+      { "nombre": "ICIQ-UI SF", "ambito": "Incontinencia urinaria: síntomas e impacto" },
+      { "nombre": "PFDI-20 / PFIQ-7", "ambito": "Distrés e impacto de síntomas del suelo pélvico" },
+      { "nombre": "Diario miccional", "ambito": "Frecuencia, volúmenes, urgencia y escapes" },
+      { "nombre": "Escala de Bristol", "ambito": "Forma de las heces" },
+      { "nombre": "Puntuación de incontinencia fecal (Wexner/Cleveland Clinic)", "ambito": "Incontinencia fecal" },
+      { "nombre": "Prueba de la compresa (pad test)", "ambito": "Cuantificación de escapes" },
+      { "nombre": "Manometría, dinamometría y electromiografía de superficie", "ambito": "Medición instrumental y biorretroalimentación" },
+      { "nombre": "Ecografía transperineal", "ambito": "Imagen del suelo pélvico y avulsión del elevador del ano" }
+    ]
+  }
+}

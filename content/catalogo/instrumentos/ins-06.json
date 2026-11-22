@@ -1,0 +1,125 @@
+{
+  "instrument_id": "INS-06",
+  "title": "Evaluación postural",
+  "category": "Evaluación musculoesquelética y biomecánica",
+  "related_specialties": [
+    "Musculoesquelética",
+    "Deportiva",
+    "Pediátrica",
+    "Geriátrica",
+    "Traumatológica"
+  ],
+  "target_population": [
+    "Adultos",
+    "Adultos mayores",
+    "Población pediátrica"
+  ],
+  "purpose": "Analizar alineación corporal, relaciones entre segmentos y asimetrías estáticas y dinámicas, relacionándolas con síntomas y función.",
+  "variables": [
+    "Alineación de cabeza y cuello",
+    "Posición de hombros",
+    "Posición escapular",
+    "Curvaturas vertebrales",
+    "Alineación pélvica",
+    "Alineación de caderas",
+    "Alineación de rodillas",
+    "Alineación de tobillos y pies",
+    "Simetría",
+    "Control postural dinámico"
+  ],
+  "tools": [
+    "Plomada",
+    "Cuadrícula postural",
+    "Cinta métrica",
+    "Cámara fotográfica",
+    "Inclinómetro",
+    "Escoliómetro",
+    "Software de fotogrametría"
+  ],
+  "protocols": [
+    "Observación anterior",
+    "Observación posterior",
+    "Observación lateral",
+    "Identificación de referencias anatómicas",
+    "Evaluación de columna",
+    "Evaluación de cintura escapular",
+    "Evaluación de pelvis y miembros inferiores",
+    "Evaluación dinámica",
+    "Fotogrametría cuando esté indicada"
+  ],
+  "scales": [
+    {
+      "name": "Escoliómetro",
+      "purpose": "Cuantificar ángulo de rotación del tronco durante prueba de inclinación anterior; no diagnostica por sí solo escoliosis."
+    },
+    {
+      "name": "Evaluación postural observacional",
+      "purpose": "Describir hallazgos por planos y segmentos; no es una escala diagnóstica universal."
+    }
+  ],
+  "visual_assets": [
+    {
+      "asset_id": "VIS-06A",
+      "type": "diagrama_original",
+      "description": "Vista anterior, posterior y lateral con líneas de referencia postural.",
+      "file": "VIS-06_planos_posturales.svg",
+      "asset_status": "original_educational_diagram"
+    },
+    {
+      "asset_id": "VIS-06B",
+      "type": "lamina_anatomica",
+      "description": "Curvas fisiológicas de columna y ejemplos esquemáticos de variaciones de alineación.",
+      "file": null,
+      "asset_status": "pending_creation_and_review"
+    },
+    {
+      "asset_id": "VIS-06C",
+      "type": "diagrama_original",
+      "description": "Ejemplos esquemáticos de genu valgo, genu varo, pie plano y pie cavo; no diagnósticos.",
+      "file": null,
+      "asset_status": "pending_creation"
+    }
+  ],
+  "record_fields": [
+    "Fecha",
+    "Plano",
+    "Región",
+    "Referencias anatómicas",
+    "Hallazgos",
+    "Simetrías/asimetrías",
+    "Mediciones",
+    "Fotografía autorizada",
+    "Síntomas relacionados",
+    "Observaciones"
+  ],
+  "safety": [
+    "Garantizar privacidad y consentimiento para fotografías",
+    "Mantener posición cómoda y segura",
+    "No diagnosticar a partir de observación postural aislada",
+    "Considerar edad, morfología y antecedentes",
+    "Relacionar hallazgos con síntomas y función"
+  ],
+  "activities": [
+    "Identificar referencias anatómicas",
+    "Reconocer planos",
+    "Diferenciar variaciones de alineación",
+    "Practicar cuadrícula postural",
+    "Interpretar registros fotográficos",
+    "Relacionar postura y movimiento"
+  ],
+  "references": [
+    "Kendall FP et al. Muscles: Testing and Function. Verificar edición.",
+    "Magee DJ. Orthopedic Physical Assessment. Verificar edición.",
+    "Neumann DA. Kinesiology of the Musculoskeletal System. Verificar edición.",
+    "Literatura específica de fotogrametría postural: referencias pendientes."
+  ],
+  "licensing": {
+    "reproduction_allowed": null,
+    "conditions": "Verificar derechos, licencias y condiciones de uso de cada escala, formulario, imagen y protocolo oficial antes de publicarlos o reproducirlos.",
+    "source_verification": "pending"
+  },
+  "review_status": "content_draft",
+  "version": "1.0",
+  "language": "es",
+  "content_notice": "Borrador educativo para revisión académica. No sustituye formación, supervisión clínica, juicio profesional ni protocolos institucionales."
+}

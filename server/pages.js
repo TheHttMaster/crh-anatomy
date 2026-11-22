@@ -10,6 +10,7 @@ const NAV = [
   { href: "/lamina", label: "Lámina", id: "lamina" },
   { href: "/biblioteca", label: "Biblioteca", id: "biblioteca" },
   { href: "/patologias", label: "Patologías", id: "patologias" },
+  { href: "/instrumentos", label: "Instrumentos", id: "instrumentos" },
   { href: "/quiz", label: "Quiz", id: "quiz" },
   { href: "/asistente", label: "CrH-IA", id: "asistente", cta: true },
 ];
@@ -21,6 +22,7 @@ const PAGES = {
   "/lamina": { id: "lamina", file: "lamina.html", title: "Lámina anatómica · CrH-Anatomy", description: "Lámina conceptual del suelo pélvico y la región urogenital por capas, con lectura guiada.", scripts: ["chat-core", "widget", "lamina"] },
   "/biblioteca": { id: "biblioteca", file: "biblioteca.html", title: "Biblioteca clínica · CrH-Anatomy", description: "Quince temas que relacionan anatomía, función, evaluación e intervención en fisioterapia pélvica.", scripts: ["chat-core", "widget", "biblioteca"] },
   "/patologias": { id: "patologias", file: "patologias.html", title: "Patologías · CrH-Anatomy", description: "Guía educativa de patologías del suelo pélvico: cómo aparecen, qué estructuras afectan y su relevancia para fisioterapia.", scripts: ["data/pathologies", "chat-core", "widget", "patologias"] },
+  "/instrumentos": { id: "instrumentos", file: "instrumentos.html", title: "Instrumentos de evaluación · CrH-Anatomy", description: "Catálogo educativo de 10 instrumentos de evaluación fisioterapéutica con protocolos, escalas, diagramas y su relación con el suelo pélvico.", scripts: ["data/catalog", "chat-core", "widget", "instrumentos"] },
   "/quiz": { id: "quiz", file: "quiz.html", title: "Quiz esencial · CrH-Anatomy", description: "Practica con el cuestionario esencial de anatomía pélvica o genera preguntas a partir de tus apuntes.", scripts: ["data/quiz", "chat-core", "widget", "quiz"] },
   "/asistente": { id: "asistente", file: "asistente.html", title: "CrH-IA · Asistente académico · CrH-Anatomy", description: "Conversa con CrH-IA, el asistente académico de CrH-Anatomy, para razonar anatomía y fisioterapia del suelo pélvico.", scripts: ["data/knowledge", "chat-core", "asistente"], noWidget: true },
 };
