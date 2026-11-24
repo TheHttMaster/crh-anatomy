@@ -6,7 +6,7 @@ require('./build-viewer.js');
 let main = rd('views/pages/modelos.html')
   .replace(/<div class="crumbs">.*?<\/div>/s, '')
   .replace(/ data-model="[^"]*"/, '')
-  .replace(/<a href="\/atlas">Z-Anatomy o Pelviatlas<\/a>/, '<a href="https://www.z-anatomy.com/" target="_blank" rel="noopener noreferrer">Z-Anatomy</a> o <a href="https://www.pelvicatlas.com/" target="_blank" rel="noopener noreferrer">Pelviatlas</a>');
+  .replace(/<a href="\/atlas">Pelviatlas<\/a>/, '<a href="https://www.pelvicatlas.com/" target="_blank" rel="noopener noreferrer">Pelviatlas</a>');
 const logo = rd('public/img/logo.svg');
 const glb = fs.readFileSync(path.join(root, 'public/img/pelvis.glb')).toString('base64');
 const html = `<!DOCTYPE html>
@@ -17,7 +17,7 @@ const html = `<!DOCTYPE html>
 <style>${rd('public/css/main.css')}
 .site-header .wrap{justify-content:space-between}.brand-svg{height:44px;width:auto}</style></head>
 <body>
-<header class="site-header"><div class="wrap"><div class="brand-svg-wrap" style="display:flex;align-items:center">${logo.replace('<svg ', '<svg class="brand-svg" ')}</div><a class="btn sm" href="https://www.z-anatomy.com/" target="_blank" rel="noopener noreferrer">Z-Anatomy ↗</a></div></header>
+<header class="site-header"><div class="wrap"><div class="brand-svg-wrap" style="display:flex;align-items:center">${logo.replace('<svg ', '<svg class="brand-svg" ')}</div></div></header>
 <main>${main}</main>
 <footer class="site-footer"><div class="wrap"><p class="foot-note" style="border:0;margin:0;padding:0">CrH-Anatomy · Contenido educativo; no sustituye la valoración de un profesional de la salud.</p></div></footer>
 <script>window.CRH_STANDALONE=true;window.CRH_GLB_B64="${glb}";</script>

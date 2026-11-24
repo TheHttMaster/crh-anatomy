@@ -61,7 +61,7 @@ window.CRH=window.CRH||{};window.CRH.knowledge=[
  },
  {
   "title": "Elevador del ano",
-  "text": "Músculo del diafragma pélvico. Se describe mediante puborrectal, pubococcígeo o pubovisceral e iliococcígeo, según la nomenclatura utilizada. Participa en el soporte de las vísceras pélvicas, la continencia y la coordinación abdominopélvica. La inervación es compleja y no debe atribuirse exclusivamente al nervio pudendo. Para estudiar sus porciones en 3D, abre Z-Anatomy o Pelviatlas y busca levator ani."
+  "text": "Músculo del diafragma pélvico. Se describe mediante puborrectal, pubococcígeo o pubovisceral e iliococcígeo, según la nomenclatura utilizada. Participa en el soporte de las vísceras pélvicas, la continencia y la coordinación abdominopélvica. La inervación es compleja y no debe atribuirse exclusivamente al nervio pudendo. Para estudiar sus porciones en 3D, abre Pelviatlas y busca levator ani."
  },
  {
   "title": "Puborrectal",

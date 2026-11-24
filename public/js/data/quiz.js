@@ -88,7 +88,7 @@ window.CRH=window.CRH||{};window.CRH.quiz=[
   "Un esquema simplifica la anatomía para facilitar el aprendizaje. No demuestra que todas las personas tengan la misma forma ni sustituye una valoración clínica."
  ],
  [
-  "Un estudiante desactiva una capa en el esquema didáctico de CrH-Anatomy y afirma que también ha ocultado esa malla en Z-Anatomy. ¿Qué respuesta es correcta?",
+  "Un estudiante desactiva una capa en el esquema didáctico de CrH-Anatomy y afirma que también ha ocultado esa malla en Pelviatlas. ¿Qué respuesta es correcta?",
   [
    "No necesariamente: los controles locales no están sincronizados con el visor externo",
    "Sí, porque ambos sitios comparten automáticamente el mismo estado",
