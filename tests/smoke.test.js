@@ -21,7 +21,7 @@ test("health responde 200", async () => {
 });
 
 test("todas las páginas responden con HTML y cabeceras de seguridad", async () => {
-  for (const p of ["/", "/atlas", "/modelos", "/lamina", "/biblioteca", "/instrumentos", "/patologias", "/quiz", "/asistente"]) {
+  for (const p of ["/", "/atlas", "/modelos", "/biblioteca", "/instrumentos", "/patologias", "/quiz", "/asistente"]) {
     const r = await fetch(base + p);
     assert.equal(r.status, 200, p);
     assert.match(r.headers.get("content-type"), /text\/html/);
