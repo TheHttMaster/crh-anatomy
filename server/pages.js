@@ -11,6 +11,7 @@ const NAV = [
   { href: "/patologias", label: "Patologías", id: "patologias" },
   { href: "/instrumentos", label: "Instrumentos", id: "instrumentos" },
   { href: "/quiz", label: "Quiz", id: "quiz" },
+  { href: "/contacto", label: "Contáctanos", id: "contacto" },
   { href: "/asistente", label: "CrH-IA", id: "asistente", cta: true },
 ];
 

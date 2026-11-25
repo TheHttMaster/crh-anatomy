@@ -30,6 +30,22 @@ test("todas las páginas responden con HTML y cabeceras de seguridad", async () 
   }
 });
 
+test("la cabecera incluye el enlace a Contáctanos", async () => {
+  const r = await fetch(base + "/");
+  const html = await r.text();
+  assert.match(html, /<nav[^>]*id="mainNav"[\s\S]*href="\/contacto"[^>]*>Contáctanos<\/a>[\s\S]*<\/nav>/);
+});
+
+test("Contáctanos aparece antes de CrH-IA en la cabecera", async () => {
+  const r = await fetch(base + "/");
+  const html = await r.text();
+  const contactIndex = html.indexOf('href="/contacto">Contáctanos</a>');
+  const assistantIndex = html.indexOf('href="/asistente"');
+  assert.ok(contactIndex > -1);
+  assert.ok(assistantIndex > -1);
+  assert.ok(contactIndex < assistantIndex);
+});
+
 test("404 propio", async () => {
   const r = await fetch(base + "/no-existe");
   assert.equal(r.status, 404);
