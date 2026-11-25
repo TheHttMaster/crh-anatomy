@@ -22,6 +22,7 @@ const PAGES = {
   "/patologias": { id: "patologias", file: "patologias.html", title: "Patologías · CrH-Anatomy", description: "Guía educativa de patologías del suelo pélvico: cómo aparecen, qué estructuras afectan y su relevancia para fisioterapia.", scripts: ["data/pathologies", "chat-core", "widget", "patologias"] },
   "/instrumentos": { id: "instrumentos", file: "instrumentos.html", title: "Instrumentos de evaluación · CrH-Anatomy", description: "Catálogo educativo de 10 instrumentos de evaluación fisioterapéutica con protocolos, escalas, diagramas y su relación con el suelo pélvico.", scripts: ["data/catalog", "chat-core", "widget", "instrumentos"] },
   "/quiz": { id: "quiz", file: "quiz.html", title: "Quiz esencial · CrH-Anatomy", description: "Practica con el cuestionario esencial de anatomía pélvica o genera preguntas a partir de tus apuntes.", scripts: ["data/quiz", "chat-core", "widget", "quiz"] },
+  "/contacto": { id: "contacto", file: "contacto.html", title: "Contacto · CrH-Anatomy", description: "Escríbenos para enviar sugerencias, reportar errores o colaborar con CrH-Anatomy.", scripts: ["contacto", "chat-core", "widget"] },
   "/asistente": { id: "asistente", file: "asistente.html", title: "CrH-IA · Asistente académico · CrH-Anatomy", description: "Conversa con CrH-IA, el asistente académico de CrH-Anatomy, para razonar anatomía y fisioterapia del suelo pélvico.", scripts: ["data/knowledge", "chat-core", "asistente"], noWidget: true },
 };
 
@@ -49,7 +50,7 @@ function render(page, route = "") {
     .replace("{{page}}", page.id)
     .replace("{{canonical}}", () => canonical)
     .replace("{{nav}}", () => nav)
-    .replace("{{content}}", () => view("pages/" + page.file))
+    .replace("{{content}}", () => view("pages/" + page.file).replace(/{{contactEmail}}/g, () => esc(cfg.CONTACT_EMAIL)))
     .replace("{{widget}}", () => (page.noWidget ? "" : view("widget.html")))
     .replace("{{scripts}}", () => scripts);
 }

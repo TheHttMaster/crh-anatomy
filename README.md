@@ -54,3 +54,6 @@ Los modelos 3D proceden de [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-hu
 - Diagramas: `public/img/instrumentos/`. Página: `/instrumentos` (`views/pages/instrumentos.html`, `public/js/instrumentos.js`).
 - Tras cambiar el catálogo: `npm run build:catalog` (valida y regenera `public/js/data/catalog.js`).
 - Estado: borrador educativo; referencias por verificar y licencias pendientes.
+
+## Contacto
+`/contacto` muestra el correo definido en la variable `CONTACT_EMAIL` (enlace `mailto:` y botón copiar). No envía correos desde el servidor, por lo que funciona en Railway sin SMTP.

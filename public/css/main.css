@@ -1951,3 +1951,7 @@ label.lbl {
   .main-nav a { padding-left: 9px; padding-right: 9px; font-size: .9rem; }
   .brand-text small { display: none; }
 }
+
+/* Contacto */
+.contact-mail { font-size: 1.35rem; font-weight: 700; margin: 14px 0 18px; overflow-wrap: anywhere; }
+.contact-mail a { color: var(--navy); text-decoration: underline; text-underline-offset: 4px; }

@@ -23,6 +23,8 @@ module.exports = {
   GEMINI_RETRY_BASE_MS: int(process.env.GEMINI_RETRY_BASE_MS, 800),
   GEMINI_TIMEOUT_MS: int(process.env.GEMINI_TIMEOUT_MS, 30000),
   RATE_LIMIT_PER_MIN: int(process.env.RATE_LIMIT_PER_MIN, 20),
+  // Correo público de contacto (solo se muestra en /contacto; no se envía nada desde el servidor).
+  CONTACT_EMAIL: (process.env.CONTACT_EMAIL || "").trim(),
   CORS_ORIGIN: process.env.CORS_ORIGIN || "",
   // URL pública (p. ej. https://crh-anatomy.up.railway.app) para sitemap y metadatos.
   PUBLIC_URL: (process.env.PUBLIC_URL || (process.env.RAILWAY_PUBLIC_DOMAIN ? "https://" + process.env.RAILWAY_PUBLIC_DOMAIN : "")).replace(/\/$/, ""),
